@@ -3297,4 +3297,13 @@ java.lang.UnsupportedOperationException: This feature is no longer available.
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[m> 
+[m> [K[23:11:04 INFO]: AryanIssPro issued server command: /save-all
+> [K[23:11:18 INFO]: AryanIssPro lost connection: Disconnected
+> [K[23:11:18 INFO]: [38;5;11mAryanIssPro left the game[0m
+> [K[23:13:28 INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+> [K[23:13:38 INFO]: [38;5;11mAryanIssPro joined the game[0m
+> [K[23:13:38 INFO]: AryanIssPro[/100.64.1.2:63680] logged in with entity id 776 at ([world]32.69999998807907, 63.0, -24.69999998807907)
+> [K[23:14:45 INFO]: AryanIssPro issued server command: /save-all
+> [K[23:14:58 INFO]: AryanIssPro lost connection: Disconnected
+> [K[23:14:58 INFO]: [38;5;11mAryanIssPro left the game[0m
+> 
