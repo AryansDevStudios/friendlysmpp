@@ -118,6 +118,7 @@ fi
 
 export TZ=Asia/Kolkata
 alias start='bash ~/start.sh'
+alias sync='./sync.sh'
 
 sudo ln -fs /usr/local/nvm/versions/node/v22.16.0/bin/node /usr/local/bin/node
 sudo ln -fs /usr/local/nvm/versions/node/v22.16.0/bin/npm /usr/local/bin/npm
