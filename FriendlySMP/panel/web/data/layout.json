@@ -1,0 +1,531 @@
+[
+  {
+    "page": "__settings__",
+    "items": [],
+    "theme": {
+      "backgroundImage": ""
+    }
+  },
+  {
+    "page": "/",
+    "items": [
+      {
+        "id": "32b5018c-e775-4218-87ec-479e3e7ad15a",
+        "type": "StatusBlock",
+        "title": "Servers",
+        "meta": {
+          "type": "instance"
+        },
+        "width": 4,
+        "description": "Used for administrators to view server data",
+        "height": "200px"
+      },
+      {
+        "id": "05df8c17-905a-4ef6-9f3f-4c3b6c7c8c89",
+        "type": "StatusBlock",
+        "title": "System Resource",
+        "meta": {
+          "type": "system"
+        },
+        "width": 4,
+        "description": "Used for administrators to view server data",
+        "height": "200px"
+      },
+      {
+        "id": "ca3fb656-49b8-4cd4-98a0-a4c513ed2efe",
+        "type": "StatusBlock",
+        "title": "Login Count",
+        "meta": {
+          "type": "users"
+        },
+        "width": 4,
+        "description": "Used for administrators to view server data",
+        "height": "200px"
+      },
+      {
+        "id": "ef9a769f-bb03-49fb-80c6-5b1f546ed668",
+        "meta": {},
+        "type": "DataOverview",
+        "title": "Data Overview",
+        "width": 12,
+        "description": "Used for administrators to view server data",
+        "height": "400px"
+      },
+      {
+        "id": "8ad158a3-111d-4307-bb63-022af80a743b",
+        "meta": {},
+        "type": "RequestChart",
+        "title": "Interface Requests",
+        "width": 12,
+        "description": "Used for administrators to view server data",
+        "height": "400px"
+      },
+      {
+        "id": "fca11f79-79db-42c1-b942-9ca00b3779ac",
+        "meta": {},
+        "type": "NodeOverview",
+        "title": "Daemon Status",
+        "width": 12,
+        "description": "Used for administrators to view server data",
+        "height": "200px"
+      }
+    ]
+  },
+  {
+    "page": "/instances",
+    "items": [
+      {
+        "id": "59883b2a-873b-4f3f-b394-d82c4aafd19e",
+        "meta": {},
+        "type": "InstanceList",
+        "title": "Instances ",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "7f3d5e22-3e3b-4cac-80fd-76b43cd5a327",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal",
+    "items": [
+      {
+        "id": "6e2d637d-3001-4f69-bcaf-0f82c6aa1847",
+        "meta": {
+          "viewType": "inner"
+        },
+        "type": "Terminal",
+        "title": "Console",
+        "width": 12,
+        "height": "600px",
+        "disableDelete": true
+      },
+      {
+        "id": "c8b36359-9fd5-4a71-b791-330827c0ecf2",
+        "meta": {},
+        "type": "InstanceBaseInfo",
+        "title": "Basic Infomation",
+        "width": 4,
+        "height": "200px"
+      },
+      {
+        "id": "b287fa71-4771-41b6-a715-1185f92d0525",
+        "meta": {},
+        "type": "InstanceManagerBtns",
+        "title": "Manage Instance",
+        "width": 8,
+        "height": "200px",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal/files",
+    "items": [
+      {
+        "id": "c5b61d16-9612-4cee-9ca7-aa64e611c9bf",
+        "meta": {},
+        "type": "InstanceFileManager",
+        "title": "File Management",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "775b8585-d90f-4b17-95c6-10ccd08d2000",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal/serverConfig",
+    "items": [
+      {
+        "id": "bde0f7f9-6201-4b0d-b4ee-f3841b0058ad",
+        "meta": {},
+        "type": "InstanceServerConfigOverview",
+        "title": "Configuration Files",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "9e60e11c-43f3-49eb-a919-b76a1b34487a",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal/serverConfig/fileEdit",
+    "items": [
+      {
+        "id": "cb95b274-7992-4a74-8090-e905ddfc4852",
+        "meta": {},
+        "type": "InstanceServerConfigFile",
+        "title": "Edit Server Configuration File",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "c80d08b9-2a95-42ec-804d-28c0d76e2d84",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/schedule",
+    "items": [
+      {
+        "id": "f03c13e7-452e-407c-8ce8-f310698a42c5",
+        "meta": {},
+        "type": "Schedule",
+        "title": "Scheduled Tasks",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "458280f8-e057-441b-b59b-20e0536e82bf",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/users",
+    "items": [
+      {
+        "id": "4b696835-94ec-468a-abed-56d83b4a8bdf",
+        "meta": {},
+        "type": "UserList",
+        "title": "Users",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "f2e96576-795b-4c4a-9e9c-5fc6cd07ba5f",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/users/resources",
+    "items": [
+      {
+        "id": "89793cfb-4140-4854-b6b5-9ee28fabd720",
+        "meta": {},
+        "type": "UserAccessSettings",
+        "title": "User Resource Management",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "539665be-224b-48b1-aa02-6c2ddf1f400f",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/settings",
+    "items": [
+      {
+        "id": "7b8c7192-0c89-4471-8d9e-db0dccb46d86",
+        "meta": {},
+        "type": "Settings",
+        "title": "System Settings",
+        "width": 8,
+        "height": "800px",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/node",
+    "items": [
+      {
+        "id": "1b6618c0-2795-4028-83b5-900b611a31db",
+        "meta": {},
+        "type": "NodeList",
+        "title": "Daemons",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "51592197-3b12-454f-8cea-8d79e882a8db",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/node/image",
+    "items": [
+      {
+        "id": "44ab3a75-cabe-414c-9703-6dfc78c1eceb",
+        "meta": {},
+        "type": "ImageManager",
+        "title": "Manage Images",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "eea8e993-fda2-49b1-bfd9-208b26d5d61d",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/node/image/new",
+    "items": [
+      {
+        "id": "ee3a189a-1aa1-4f87-a880-2b1cfab32144",
+        "meta": {},
+        "type": "NewImage",
+        "title": "Create Image",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "379949b9-6b5a-4bb5-b374-e98ea9db49ca",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/quickstart",
+    "items": [
+      {
+        "id": "f15804ec-261c-4ab1-846b-f850c96c0d91",
+        "meta": {},
+        "type": "QuickStartFlow",
+        "title": "Quickly Deploy Application Instances",
+        "width": 8,
+        "height": "unset"
+      }
+    ]
+  },
+  {
+    "page": "/quickstart/minecraft",
+    "items": [
+      {
+        "id": "c699283a-76ca-4e67-9012-da91cddaeb01",
+        "meta": {},
+        "type": "McPreset",
+        "title": "",
+        "width": 12,
+        "height": "unset"
+      },
+      {
+        "id": "0965548e-6c36-4519-9abe-0ee523ffb8bb",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/customer",
+    "items": [
+      {
+        "id": "668350b2-1fcc-4254-bc44-640736167092",
+        "type": "UserStatusBlock",
+        "title": "Total Instances",
+        "meta": {
+          "type": "instance_all"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "6f185315-f69b-4567-9e62-09a31b92fdf9",
+        "type": "UserStatusBlock",
+        "title": "Running",
+        "meta": {
+          "type": "instance_running"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "4fc1ccb1-2603-45c4-b623-4413da486ed4",
+        "type": "UserStatusBlock",
+        "title": "Stopped",
+        "meta": {
+          "type": "instance_stop"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "ccabd936-bd09-46b8-9c30-75bb64a46c8f",
+        "type": "UserStatusBlock",
+        "title": "Under Maintenance",
+        "meta": {
+          "type": "instance_error"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "84a28fce-66fa-41a8-aab1-3c337c6c5cab",
+        "type": "UserInstanceList",
+        "title": "Instance List",
+        "meta": {
+          "type": "instance_error"
+        },
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/login",
+    "items": [
+      {
+        "id": "d383273a-dd6b-4585-a192-6373ee2747db",
+        "meta": {},
+        "type": "LoginCard",
+        "title": "Authentication",
+        "width": 5,
+        "height": "unset",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/shop",
+    "items": [
+      {
+        "id": "afa4c871-54b0-4d06-a6c4-ceeb73fcc74e",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 2,
+        "height": "100px"
+      },
+      {
+        "id": "03895ccf-c5ea-4100-9257-59f4cad8374a",
+        "meta": {},
+        "type": "ShopInfoCard",
+        "title": "Merchant Info",
+        "width": 8,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "255bbb33-8d62-4b8c-8f40-45a8cd87509b",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 2,
+        "height": "100px"
+      },
+      {
+        "id": "3fd00d6f-1eef-4dce-971a-e1641ba20bf9",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 2,
+        "height": "100px"
+      },
+      {
+        "id": "9ed41758-51cf-4b85-a98b-6b6a6429491b",
+        "meta": {},
+        "type": "ShelvesCard",
+        "title": "Product List",
+        "width": 8,
+        "height": "800px",
+        "disableDelete": true
+      },
+      {
+        "id": "cdf05c4c-7bd8-4fe8-b1bd-283df89ad5c4",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 2,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/404",
+    "items": [
+      {
+        "id": "a80778b1-5946-4911-84a2-4b6104d1ea87",
+        "meta": {},
+        "type": "Page404",
+        "title": "Page Not Found",
+        "width": 6,
+        "height": "100px",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/_open_page",
+    "items": [
+      {
+        "id": "7c1d13ee-87e3-4209-a85d-d703f66f9476",
+        "meta": {},
+        "type": "DefaultCard",
+        "title": "About This Page",
+        "width": 6,
+        "height": "200px"
+      }
+    ]
+  }
+]

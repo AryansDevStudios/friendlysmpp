@@ -1,0 +1,15 @@
+{
+    "ip": "localhost",
+    "port": 24444,
+    "prefix": "",
+    "remarks": "",
+    "apiKey": "455186707e79436431f0b7004ab4bc1b7c46ebc4c004c10",
+    "connectOpts": {
+        "multiplex": false,
+        "reconnectionDelayMax": 3000,
+        "timeout": 3000,
+        "reconnection": true,
+        "reconnectionAttempts": 20,
+        "rejectUnauthorized": false
+    }
+}

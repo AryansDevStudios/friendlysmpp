@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.229.131.192
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1751545545232
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751545618229
+  login: 1751542028514
+money: '0'
+last-account-name: Webster_OG
+logoutlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: -397.52849208572235
+  y: -15.0
+  z: 278.6307812328342
+  yaw: -0.3683012127876282
+  pitch: 12.120780944824219
+lastlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: -127.83287706950941
+  y: 104.69144671998234
+  z: 10.430321689686677
+  yaw: 40.25506591796875
+  pitch: 12.43700122833252
+homes:
+  home:
+    world: b447c98d-c70f-4098-8f0f-36189c227fc0
+    world-name: world
+    x: -396.42809032203303
+    y: -15.0
+    z: 275.66490429258164
+    yaw: 30.41278076171875
+    pitch: 8.50475025177002

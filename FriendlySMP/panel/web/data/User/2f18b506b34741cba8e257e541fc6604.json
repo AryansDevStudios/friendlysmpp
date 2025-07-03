@@ -1,0 +1,15 @@
+{
+    "uuid": "2f18b506b34741cba8e257e541fc6604",
+    "userName": "admin",
+    "passWord": "$2a$10$ncZHB/xn4v4tpjPDgCIWquGyq2fzxHfp1klfcWq5ZyOdggX.594hy",
+    "passWordType": 1,
+    "salt": "",
+    "permission": 10,
+    "registerTime": "6/30/2025, 1:55:14 PM",
+    "loginTime": "6/30/2025, 7:15:04 PM",
+    "instances": [],
+    "apiKey": "",
+    "isInit": false,
+    "secret": "H5XXE4REBQEVOVSK",
+    "open2FA": false
+}

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.55.251.23
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751382582813
+  login: 1751382295517
+money: '0'
+last-account-name: ANURAG_PR0
+lastlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: -1.6933693762526287
+  y: 66.0
+  z: -202.42748261258814
+  yaw: -159.094970703125
+  pitch: 65.93231964111328
+logoutlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: -24.4946632273308
+  y: 69.0
+  z: 92.35124268621685
+  yaw: 173.15911865234375
+  pitch: 3.863163948059082

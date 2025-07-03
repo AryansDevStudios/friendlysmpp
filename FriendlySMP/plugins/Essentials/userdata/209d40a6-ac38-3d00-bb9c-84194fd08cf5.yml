@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.154.214.227
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751540280094
+  login: 1751539927220
+money: '0'
+last-account-name: GOJO_SATURO
+lastlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: 10.300000011920929
+  y: 67.0
+  z: 25.399358734707263
+  yaw: 153.71502685546875
+  pitch: 13.996906280517578
+logoutlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: 10.300000011920929
+  y: 67.0
+  z: 25.399358734707263
+  yaw: 153.71502685546875
+  pitch: 13.996906280517578

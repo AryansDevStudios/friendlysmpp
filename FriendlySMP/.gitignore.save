@@ -1,0 +1,10 @@
+/bluemap
+/cache
+/libraries
+/logs
+/versions
+/plugins/AxVaults/lib
+/plugins/AxVaults/libs
+/plugins/bStats
+/panel/daemon/node_modules
+/panel/web/node_modules

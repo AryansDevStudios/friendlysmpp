@@ -1,0 +1,60 @@
+{
+    "nickname": "FriendlySMP",
+    "startCommand": "java -Xms2G -Xmx8G -jar paper-1.21.5.jar nogui",
+    "stopCommand": "stop",
+    "cwd": "/home/friendlysmpp/FriendlySMP",
+    "ie": "utf8",
+    "oe": "utf8",
+    "createDatetime": 1751272098943,
+    "lastDatetime": 1751550892117,
+    "type": "minecraft/java/paper",
+    "tag": [],
+    "endTime": 0,
+    "fileCode": "utf8",
+    "processType": "general",
+    "updateCommand": "",
+    "crlf": 1,
+    "category": 0,
+    "enableRcon": false,
+    "rconPassword": "",
+    "rconPort": 0,
+    "rconIp": "",
+    "actionCommandList": [],
+    "terminalOption": {
+        "haveColor": false,
+        "pty": true,
+        "ptyWindowCol": 164,
+        "ptyWindowRow": 40
+    },
+    "eventTask": {
+        "autoStart": true,
+        "autoRestart": true,
+        "ignore": true
+    },
+    "docker": {
+        "containerName": "",
+        "image": "",
+        "ports": [],
+        "extraVolumes": [],
+        "memory": 0,
+        "networkMode": "bridge",
+        "networkAliases": [],
+        "cpusetCpus": "",
+        "cpuUsage": 0,
+        "maxSpace": 0,
+        "io": 0,
+        "network": 0,
+        "workingDir": "/data",
+        "env": [],
+        "changeWorkdir": true
+    },
+    "pingConfig": {
+        "ip": "",
+        "port": 25565,
+        "type": 1
+    },
+    "extraServiceConfig": {
+        "openFrpTunnelId": "",
+        "openFrpToken": ""
+    }
+}

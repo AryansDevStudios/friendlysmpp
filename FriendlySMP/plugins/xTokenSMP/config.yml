@@ -1,0 +1,46 @@
+# xTokenSMP Configuration File
+
+# Life System Configuration
+life-system:
+  # Action bar message format
+  # %currentlife% will be replaced with the player's current token lives
+  actionbar-message: "&b&lLife &c❤ &7%currentlife%"
+  
+  # Default lives for new players
+  default-lives: 10
+
+# Plugin prefix for messages
+prefix: "&8[&6xTokenSMP&8] "
+
+# Token configuration
+tokens:
+  # Enable/disable specific features
+  particle-effects: true
+  sound-effects: true
+  
+  # Default cooldowns (in seconds)
+  default-cooldown: 10
+  
+  # First join settings
+  first-join-animation: true
+  first-join-token-reward: true
+
+# GUI Settings
+gui:
+  title: "&7Token Selection"
+  size: 27
+
+# Command settings
+commands:
+  # Enable/disable commands
+  tokens-command: true
+  token-command: true
+  cooldown-command: true
+  life-commands: true
+
+# Messages
+messages:
+  first-join-token: "&aWelcome! You received the &e%token% &atoken as your starter!"
+  no-permission: "&cYou don't have permission to use this command!"
+  player-not-found: "&cPlayer not found!"
+  invalid-number: "&cPlease enter a valid number!"

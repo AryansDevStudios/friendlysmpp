@@ -1,0 +1,11 @@
+This file logs every player that disconnected during combat
+You can disable the logging in the config file
+
+[2025/06/29 12:30:48] Webster_OG tried to escape combat! (9s left) | In combat with: [.AryaveerIsPro] | World:world, X:327.70, Y:14.00, Z:-114.70
+[2025/06/29 13:11:27] AryanIssPro tried to escape combat! (6s left) | In combat with: [.AryaveerIsPro] | World:world, X:322.87, Y:13.00, Z:-107.60
+[2025/06/29 14:53:14] AryanIssPro tried to escape combat! (1s left) | In combat with: [.AryaveerIsPro] | World:world, X:275.64, Y:63.00, Z:51.13
+[2025/06/29 15:00:12] AryanIssPro tried to escape combat! (9s left) | In combat with: [.AryaveerIsPro] | World:world, X:273.70, Y:65.36, Z:46.30
+[2025/06/29 15:01:40] AryanIssPro tried to escape combat! (9s left) | In combat with: [.AryaveerIsPro] | World:world, X:273.50, Y:65.00, Z:46.50
+[2025/06/29 19:24:32] .AryaveerIsPro tried to escape combat! (8s left) | In combat with: [Webster_OG] | World:world, X:683.70, Y:64.00, Z:-700.74
+[2025/07/02 21:26:30] RoxenGamerYT tried to escape combat! (9s left) | In combat with: [Webster_OG] | World:world, X:-3.08, Y:68.00, Z:2.15
+[2025/07/03 16:26:27] RoxenGamerYT tried to escape combat! (4s left) | In combat with: [Webster_OG] | World:world, X:5.87, Y:69.00, Z:-0.56

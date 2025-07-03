@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.239.177.182
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751547396778
+  login: 1751547232059
+money: '0'
+last-account-name: BODYTWO
+logoutlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: -98.5646751454297
+  y: 70.0
+  z: 187.96461933443373
+  yaw: -166.66693115234375
+  pitch: 42.66984176635742

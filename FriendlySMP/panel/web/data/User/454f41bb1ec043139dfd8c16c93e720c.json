@@ -1,0 +1,20 @@
+{
+    "uuid": "454f41bb1ec043139dfd8c16c93e720c",
+    "userName": "user",
+    "passWord": "$2a$10$N/wJYbMKC8w8QINL7SU7TOpIP7dRN/..ZSBPRyoh4KhJp2OIOGqi6",
+    "passWordType": 1,
+    "salt": "",
+    "permission": 1,
+    "registerTime": "6/30/2025, 2:58:54 PM",
+    "loginTime": "",
+    "instances": [
+        {
+            "instanceUuid": "16434a004d0442beb1b4b8d7264c9c99",
+            "daemonId": "74fb6085060c48a6abb1cee98f242519"
+        }
+    ],
+    "apiKey": "",
+    "isInit": false,
+    "secret": "",
+    "open2FA": false
+}
