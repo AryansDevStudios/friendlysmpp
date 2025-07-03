@@ -1,0 +1,9 @@
+{
+    "instanceUuid": "16434a004d0442beb1b4b8d7264c9c99",
+    "name": "Warning",
+    "count": -1,
+    "time": "1800",
+    "action": "command",
+    "payload": "tellraw @a {\"text\":\"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the server running smoothly! \",\"color\":\"gold\",\"extra\":[{\"text\":\"More info\",\"color\":\"aqua\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://shell.cloud.google.com/?authuser=1&show=terminal\"}}]}",
+    "type": 1
+}
