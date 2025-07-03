@@ -2243,3 +2243,206 @@ Starting org.bukkit.craftbukkit.Main
 > [K[22:03:06 INFO]: [BlueMap] WebServer started.
 > [K[22:03:06 INFO]: [BlueMap] Loaded!
 > 
+
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build from https://papermc.io/downloads/paper ***
+[22:04:43 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.6.87+ (amd64)
+[22:04:43 INFO]: [bootstrap] Loading Paper 1.21.5-110-main@320f25c (2025-06-07T21:31:57Z) for Minecraft 1.21.5
+[22:04:43 INFO]: [PluginInitializerManager] Initializing plugins...
+[22:04:48 INFO]: [PluginInitializerManager] Initialized 13 plugins
+[22:04:48 INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - AxVaults (2.7.3), BlueMap (5.7), Essentials (2.21.0), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.7.1-SNAPSHOT), LuckPerms (5.5.2), PvPManager (3.19.3), TAB (5.2.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), xTokenSMP (1.2)
+[33;1m[22:04:58 WARN]: resource-pack-id missing, using default of cce9c8c3-2503-373b-8184-6a9c68edb649
+[m[22:04:58 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:05:03 INFO]: Loaded 1373 recipes
+[22:05:03 INFO]: Loaded 1484 advancements
+[22:05:03 INFO]: Starting minecraft server version 1.21.5
+[22:05:03 INFO]: Loading properties
+[22:05:03 INFO]: This server is running Paper version 1.21.5-110-main@320f25c (2025-06-07T21:31:57Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[22:05:03 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:05:04 INFO]: Server Ping Player Sample Count: 12
+[22:05:04 INFO]: Using 4 threads for Netty based IO
+[22:05:06 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:05:06 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:05:07 INFO]: Default game type: SURVIVAL
+[?1h=[?2004h> [K[22:05:07 INFO]: Generating keypair
+> [K[22:05:07 INFO]: Starting Minecraft server on *:25565
+> [K[22:05:07 INFO]: Using epoll channel type
+> [K[22:05:07 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+> [K[22:05:07 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+> [K[22:05:10 INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+> [K[22:05:11 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[22:05:11 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[22:05:12 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+> [K[22:05:12 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+> [K[22:05:13 INFO]: [ViaVersion] Loading block connection mappings ...
+> [K[22:05:14 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> [K[22:05:15 INFO]: [ViaBackwards] Loading translations...
+> [K[22:05:15 INFO]: [ViaBackwards] Registering protocols...
+> [K[22:05:16 INFO]: [ViaRewind] Registering protocols...
+> [K[22:05:17 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+> [K[22:05:17 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.2
+> [K[22:05:18 INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[22:05:21 INFO]: [floodgate] Took 2,870ms to boot Floodgate
+> [K[22:05:21 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+> [K[22:05:21 INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+> [K[22:05:21 INFO]: [TAB] Loading server plugin TAB v5.2.0
+> [K[22:05:21 INFO]: [AxVaults] Loading server plugin AxVaults v2.7.3
+> [K[22:05:22 INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+> [K[22:05:22 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+> [K[31;1m[22:05:24 ERROR]: [Geyser-Spigot] [STDERR] Invalid number found for Geyser remote port in config!
+[m> [K[33;1m[22:05:24 WARN]: Nag author(s): '[GeyserMC]' of 'Geyser-Spigot v2.7.1-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m> [K[22:05:24 INFO]: [Geyser-Spigot] Loading extensions...
+> [K[22:05:24 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+> [K[22:05:24 INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[22:05:24 INFO]: [BlueMap] Loading server plugin BlueMap v5.7
+> [K[22:05:24 INFO]: [xTokenSMP] Loading server plugin xTokenSMP v1.2
+> [K[22:05:24 INFO]: Server permissions file permissions.yml is empty, ignoring it
+> [K[22:05:24 INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+> [K[22:05:26 INFO]: [38;5;14m       [38;5;6m __    [0m
+> [K[22:05:26 INFO]: [38;5;14m  |    [38;5;6m|__)   [38;5;2mLuckPerms[0m [38;5;14mv5.5.2[0m
+> [K[22:05:26 INFO]: [38;5;14m  |___ [38;5;6m|      [38;5;8mRunning on Bukkit - Paper[0m
+> [K[22:05:26 INFO]: 
+> [K[22:05:26 INFO]: [LuckPerms] Loading configuration...
+> [K[22:05:27 INFO]: [LuckPerms] Loading storage provider... [H2]
+> [K[22:05:29 INFO]: [LuckPerms] Loading internal permission managers...
+> [K[22:05:30 INFO]: [LuckPerms] Performing initial data load...
+> [K[22:05:30 INFO]: [LuckPerms] Successfully enabled. (took 5944ms)
+> [K[22:05:30 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+> [K[33;1m[22:05:30 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m> [K[33;1m[22:05:30 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m> [K[33;1m[22:05:30 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m> [K[33;1m[22:05:30 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m> [K[22:05:30 INFO]: Preparing level "world"
+> [K[22:05:32 INFO]: Preparing start region for dimension minecraft:overworld
+> [K[22:05:33 INFO]: Preparing spawn area: 0%
+> [K[22:05:33 INFO]: Preparing spawn area: 0%
+> [K[22:05:35 INFO]: Preparing spawn area: 0%
+> [K[22:05:35 INFO]: Preparing spawn area: 0%
+> [K[22:05:35 INFO]: Preparing spawn area: 0%
+> [K[22:05:35 INFO]: Preparing spawn area: 0%
+> [K[22:05:35 INFO]: Preparing spawn area: 0%
+> [K[22:05:35 INFO]: Time elapsed: 3475 ms
+> [K[22:05:35 INFO]: Preparing start region for dimension minecraft:the_nether
+> [K[22:05:35 INFO]: Preparing spawn area: 0%
+> [K[22:05:36 INFO]: Preparing spawn area: 34%
+> [K[22:05:36 INFO]: Time elapsed: 613 ms
+> [K[22:05:36 INFO]: Preparing start region for dimension minecraft:the_end
+> [K[22:05:36 INFO]: Preparing spawn area: 0%
+> [K[22:05:36 INFO]: Time elapsed: 478 ms
+> [K[22:05:36 INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+> [K[22:05:36 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+> [K[22:05:36 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+> [K[22:05:36 INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[22:05:38 INFO]: [Essentials] Enabling Essentials v2.21.0
+> [K[31;1m[22:05:39 ERROR]: [Essentials] You are running an unsupported server version!
+[m> [K[22:05:40 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+> [K[22:05:40 INFO]: [Essentials] No kits found to migrate.
+> [K[22:05:40 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+> [K[22:05:40 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+> [K[22:05:40 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+> [K[22:05:41 INFO]: [Essentials] Loaded 43465 items from items.json.
+> [K[22:05:41 INFO]: [Essentials] Using locale en_US
+> [K[22:05:41 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+> [K[22:05:42 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+> [K[33;1m[22:05:42 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[m> [K[33;1m[22:05:42 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[m> [K[22:05:42 INFO]: [Essentials] Using superperms-based permissions.
+> [K[22:05:42 INFO]: [TAB] Enabling TAB v5.2.0
+> [K[22:05:43 INFO]: [TAB] [38;5;7mLoaded NMS hook in 88ms[0m
+> [K[22:05:44 INFO]: [TAB] [38;5;10mEnabled in 1320ms[0m
+> [K[22:05:44 INFO]: [AxVaults] Enabling AxVaults v2.7.3
+> [K[22:05:49 INFO]: [38;5;82m[AxVaults] Loaded plugin![0m
+> [K[22:05:49 INFO]: [PvPManager] Enabling PvPManager v3.19.3
+> [K[22:05:49 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mUsing player nametags: [38;5;14mtrue[0m
+> [K[22:05:50 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mConnected to [38;5;14mSQLITE[38;5;10m database successfully[0m
+> [K[22:05:50 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPlayers stored: [38;5;3m11[0m
+> [K[22:05:50 INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+> [K[22:05:50 INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+> [K[22:05:50 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;5mEssentials Found! Hooked successfully[0m
+> [K[33;1m[22:05:50 WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[m> [K[22:05:51 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPvPManager v3.19.3 enabled [38;5;7m(1567 ms)[0m
+> [K[22:05:51 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+> [K[22:05:52 INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[22:05:52 INFO]: [FastChunkPregenerator] >> Paper was found.
+> [K[22:05:52 INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+> [K[22:05:52 INFO]: [BlueMap] Enabling BlueMap v5.7
+> [K[22:05:52 INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+> [K[33;1m[22:05:52 WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[m> [K[22:05:52 INFO]: [PvPManager] Checking for updates...
+> [K[22:05:53 INFO]: [PvPManager] No update found
+> [K[22:05:53 INFO]: [xTokenSMP] Enabling xTokenSMP v1.2
+> [K[22:05:53 INFO]: [xTokenSMP] Detected Minecraft version: 1.21.5
+> [K[22:05:53 INFO]: [xTokenSMP] Configuring xTokenSMP for Minecraft 1.21.5
+> [K[33;1m[22:05:53 WARN]: [xTokenSMP] This server version (1.21.5) may not be fully compatible with xTokenSMP.
+[m> [K[33;1m[22:05:53 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[22:05:53 INFO]: [xTokenSMP] Version handler initialized for Minecraft 1.21.5
+> [K[33;1m[22:05:53 WARN]: [xTokenSMP] Running on potentially unsupported version: 1.21.5
+[m> [K[33;1m[22:05:53 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[22:05:54 INFO]: [xTokenSMP] xTokenSMP v1.2 has been enabled!
+> [K[22:05:54 INFO]: [xTokenSMP] Supports Minecraft versions 1.20.1 through 1.21.4
+> [K[22:05:55 INFO]: [spark] Starting background profiler...
+> [K[22:05:55 INFO]: [Geyser-Spigot] ******************************************
+> [K[22:05:55 INFO]: [Geyser-Spigot] 
+> [K[22:05:55 INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+> [K[22:05:55 INFO]: [Geyser-Spigot] 
+> [K[22:05:55 INFO]: [Geyser-Spigot] ******************************************
+> [K[22:06:08 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+> [K[22:06:08 INFO]: [Geyser-Spigot] Done (12.421s)! Run /geyser help for help!
+> [K[22:06:08 INFO]: [Geyser-Spigot] [38;5;10mThere's a new Geyser update available to support Bedrock version 1.21.92. Download it here: [4m[38;5;12mhttps://geysermc.org/download[0m
+> [K[22:06:08 INFO]: Done preparing level "world" (38.207s)
+> [K[22:06:08 INFO]: Starting GS4 status listener
+> [K[22:06:08 INFO]: Thread Query Listener started
+> [K[22:06:08 INFO]: Query running on 0.0.0.0:25565
+> [K[22:06:08 INFO]: Running delayed init tasks
+> [K[22:06:08 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+> [K[22:06:08 INFO]: [BlueMap] Loading...
+> [K[22:06:08 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[33;1m[22:06:09 WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.3.2
+[m> [K[22:06:09 INFO]: Done (87.594s)! For help, type "help"
+> [K[33;1m[22:06:10 WARN]: [Essentials] [38;5;1mThere is a new EssentialsX version available for download: [38;5;9m2.21.1[38;5;1m.[0m
+[m> [K[33;1m[22:06:10 WARN]: [Essentials] [38;5;1mDownload it here:[38;5;9m https://essentialsx.net/downloads.html?branch=stable[0m
+[m> [K[22:06:10 INFO]: [BlueMap] Loading resources...
+> [K[22:06:11 INFO]: [1m[38;5;82mAxVaults [0m[38;5;7m» [38;5;156mThere is a new version of AxVaults available! [38;5;253m([38;5;15mcurrent: [38;5;196m2.7.3 [38;5;253m| [38;5;15mlatest: [38;5;46m2.9.1[38;5;253m)[0m
+> [K[22:06:12 INFO]: [BlueMap] Loading textures...
+> [K[22:06:16 INFO]: [BlueMap] Baking resources...
+> [K[22:06:16 INFO]: [BlueMap] Resources loaded.
+> [K[22:06:17 INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+> [K[22:06:17 INFO]: [BlueMap] Loading map 'world'...
+> [K[22:06:17 INFO]: [BlueMap] Loading map 'world_the_end'...
+> [K[22:06:17 INFO]: [BlueMap] Loading map 'world_nether'...
+> [K[22:06:18 INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+> [K[22:06:18 INFO]: [BlueMap] WebServer started.
+> [K[22:06:18 INFO]: [BlueMap] Loaded!
+> [K[22:06:47 INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+> [K[22:06:53 INFO]: [38;5;11mAryanIssPro joined the game[0m
+> [K[22:06:53 INFO]: AryanIssPro[/100.64.1.2:62432] logged in with entity id 63 at ([world]5.694082893007974, 68.0, 74.21168667313661)
+> [K[33;1m[22:07:02 WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
+[m> [K[22:07:06 INFO]: AryanIssPro issued server command: /tps
+> [K[22:07:13 INFO]: [Not Secure] <[38;5;1mAryanIssPro[0m> hi
+> [K[22:09:16 INFO]: AryanIssPro fell from a high place
+> [K[22:10:17 INFO]: [Not Secure] <[38;5;1mAryanIssPro[0m> bhuu
+> [K[22:13:19 INFO]: AryanIssPro tried to swim in lava to escape Zombie
+> 
