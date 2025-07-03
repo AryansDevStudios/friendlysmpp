@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751566246612
-  login: 1751566052442
+  logout: 1751569831714
+  login: 1751569851090
 money: '0'
 last-account-name: AryanIssPro
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: 32.69999998807907
   y: 63.0
   z: -24.69999998807907
-  yaw: 27.151805877685547
-  pitch: 83.54997253417969
+  yaw: 10.6517333984375
+  pitch: 20.70000457763672
