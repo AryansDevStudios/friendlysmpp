@@ -1,6 +1,6 @@
 #!/bin/bash
 
 while true; do
-    bash ~/sync.sh >> ~/sync.log 2>&1
+    bash ~/sync.sh
     sleep 300
 done
