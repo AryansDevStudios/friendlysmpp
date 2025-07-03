@@ -2760,4 +2760,212 @@ java.lang.UnsupportedOperationException: This feature is no longer available.
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [m> [K[33;1m[22:39:27 WARN]: Can't keep up! Is the server overloaded? Running 4693ms or 93 ticks behind
 [m> [K[33;1m[22:43:51 WARN]: Can't keep up! Is the server overloaded? Running 2574ms or 51 ticks behind
+[m> [K[22:55:14 INFO]: Stopping server
+> [K[22:55:14 INFO]: [xTokenSMP] Disabling xTokenSMP v1.2
+> [K[22:55:14 INFO]: [xTokenSMP] xTokenSMP has been disabled!
+> [K[22:55:14 INFO]: [BlueMap] Disabling BlueMap v5.7
+> [K[22:55:14 INFO]: [BlueMap] Stopping...
+> [K[22:55:14 INFO]: [BlueMap] Saved and stopped!
+> [K[22:55:14 INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[22:55:14 INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+> [K[22:55:14 INFO]: [Geyser-Spigot] Shutting down Geyser.
+> [K[22:55:15 INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+> [K[22:55:15 INFO]: [PvPManager] Disabling PvPManager v3.19.3
+> [K[22:55:15 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] Saving player data to storage...[0m
+> [K[22:55:15 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] Closed SQLITE storage[0m
+> [K[22:55:15 INFO]: [AxVaults] Disabling AxVaults v2.7.3
+> [K[33;1m[22:55:15 WARN]: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:223)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:199)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:188)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1375)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.lambda$saveVault$0(H2.java:103)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.saveVault(H2.java:135)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.libs.axapi.AxPlugin.onDisable(AxPlugin.java:187)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:626)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:999)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:715)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m> [K[33;1m[22:55:15 WARN]: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:223)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:199)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:188)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1375)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.lambda$saveVault$0(H2.java:103)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.saveVault(H2.java:135)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.libs.axapi.AxPlugin.onDisable(AxPlugin.java:187)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
 [m> 
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.saveVault(H2.java:135)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.libs.axapi.AxPlugin.onDisable(AxPlugin.java:187)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:626)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:999)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:715)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m> [K[33;1m[22:55:15 WARN]: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:223)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:199)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:188)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1375)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.lambda$saveVault$0(H2.java:103)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.saveVault(H2.java:135)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.libs.axapi.AxPlugin.onDisable(AxPlugin.java:187)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:626)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:999)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:715)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m> [K[33;1m[22:55:15 WARN]: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:223)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:199)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:188)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1375)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.lambda$saveVault$0(H2.java:103)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.saveVault(H2.java:135)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.libs.axapi.AxPlugin.onDisable(AxPlugin.java:187)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:626)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:999)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:715)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m> [K[33;1m[22:55:15 WARN]: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:223)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:199)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.message.DbException.get(DbException.java:188)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1375)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.lambda$saveVault$0(H2.java:103)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.database.impl.H2.saveVault(H2.java:135)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.AxVaults.disable(AxVaults.java:111)
+[m> [K[33;1m[22:55:15 WARN]: 	at AxVaults-2.7.3.jar//com.artillexstudios.axvaults.libs.axapi.AxPlugin.onDisable(AxPlugin.java:187)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161)
+[m> [K[33;1m[22:55:15 WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541)
+[m> [K[33;1m[22:55:15 WARN]: 	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:626)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:999)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:715)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292)
+[m> [K[33;1m[22:55:15 WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[m> [K[33;1m[22:55:15 WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m> [K[22:55:15 INFO]: [TAB] Disabling TAB v5.2.0
+> [K[22:55:15 INFO]: [TAB] [38;5;10mDisabled in 9ms[0m
+> [K[22:55:15 INFO]: [Essentials] Disabling Essentials v2.21.0
+> [K[22:55:15 INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+> [K[22:55:15 INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[22:55:15 INFO]: [LuckPerms] Disabling LuckPerms v5.5.2
+> [K[22:55:15 INFO]: [LuckPerms] Starting shutdown process...
+> [K[22:55:15 INFO]: [LuckPerms] Closing storage...
+> [K[22:55:15 INFO]: [LuckPerms] Goodbye!
+> [K[22:55:15 INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+> [K[22:55:15 INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+> [K[22:55:15 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+> [K[22:55:15 INFO]: Saving players
+> [K[22:55:15 INFO]: AryanIssPro lost connection: Server closed
+> [K[22:55:15 INFO]: [38;5;11mAryanIssPro left the game[0m
+> [K[22:55:15 INFO]: Saving worlds
+> [K[22:55:15 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+> [K[22:55:15 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+> [K[22:55:15 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+> [K[22:55:15 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+> [K[22:55:16 INFO]: [ChunkHolderManager] Saved 196 block chunks, 180 entity chunks, 0 poi chunks in world 'world' in 0.78s
+> [K[22:55:16 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+> [K[22:55:16 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+> [K[22:55:17 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+> [K[22:55:17 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+> [K[22:55:17 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+> [K[22:55:17 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+> [K[22:55:17 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+> [K[22:55:17 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+> [K[22:55:17 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+> [K[22:55:17 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+> [K[22:55:17 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+> [K[22:55:17 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+> [K[22:55:17 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+> [K[22:55:17 INFO]: Waiting for all RegionFile I/O tasks to complete...
+> [K[22:55:17 INFO]: All RegionFile I/O tasks to complete
+> [K[22:55:17 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+> [K[22:55:17 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+> 
+
+[INFO] Preparing to start...
+[ERROR] The instance process failed to start, please check the startup command and operating environment configuration!
