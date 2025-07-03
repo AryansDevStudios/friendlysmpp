@@ -5,8 +5,6 @@ INTERVAL=300  # seconds
 
 while true; do
     echo "[INFO] $(date '+%Y-%m-%d %H:%M:%S') - Starting sync"
-    git fsck --full
-    git gc --prune=now
     git add .
     git commit -m "Auto-sync $(date '+%Y-%m-%d %H:%M:%S')"
     git push
