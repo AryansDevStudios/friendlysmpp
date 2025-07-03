@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 100.64.1.2
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -17,7 +17,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1751561281277
-  login: 1751560613571
+  login: 1751561464470
 money: '0'
 last-account-name: AryanIssPro
 lastlocation:
