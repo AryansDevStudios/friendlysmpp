@@ -2225,4 +2225,21 @@ Starting org.bukkit.craftbukkit.Main
 > [K[22:02:54 INFO]: Running delayed init tasks
 > [K[22:02:54 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 > [K[22:02:54 INFO]: [BlueMap] Loading...
+> [K[22:02:54 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[33;1m[22:02:54 WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.3.2
+[m> [K[22:02:54 INFO]: Done (98.334s)! For help, type "help"
+> [K[33;1m[22:02:55 WARN]: [Essentials] [38;5;1mThere is a new EssentialsX version available for download: [38;5;9m2.21.1[38;5;1m.[0m
+[m> [K[33;1m[22:02:55 WARN]: [Essentials] [38;5;1mDownload it here:[38;5;9m https://essentialsx.net/downloads.html?branch=stable[0m
+[m> [K[22:02:57 INFO]: [1m[38;5;82mAxVaults [0m[38;5;7m» [38;5;156mThere is a new version of AxVaults available! [38;5;253m([38;5;15mcurrent: [38;5;196m2.7.3 [38;5;253m| [38;5;15mlatest: [38;5;46m2.9.1[38;5;253m)[0m
+> [K[22:02:57 INFO]: [BlueMap] Loading resources...
+> [K[22:03:00 INFO]: [BlueMap] Loading textures...
+> [K[22:03:04 INFO]: [BlueMap] Baking resources...
+> [K[22:03:04 INFO]: [BlueMap] Resources loaded.
+> [K[22:03:05 INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+> [K[22:03:05 INFO]: [BlueMap] Loading map 'world'...
+> [K[22:03:05 INFO]: [BlueMap] Loading map 'world_the_end'...
+> [K[22:03:06 INFO]: [BlueMap] Loading map 'world_nether'...
+> [K[22:03:06 INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+> [K[22:03:06 INFO]: [BlueMap] WebServer started.
+> [K[22:03:06 INFO]: [BlueMap] Loaded!
 > 
