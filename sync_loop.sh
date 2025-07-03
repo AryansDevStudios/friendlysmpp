@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/friendlysmpp
+
 while true; do
     # sync >> ~/sync.log 2>&1
     echo "[INFO] $(date) - Starting sync"
