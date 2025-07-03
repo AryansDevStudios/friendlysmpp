@@ -3334,4 +3334,6 @@ Paper: do you wish to see all 1653 possibilities (551 lines)?[A[59D
 
 [2C
 [?1l>[?1000l[?2004l[?1h=[?2004h> [K[23:58:54 INFO]: [38;5;9mNo player was found[0m
+> tellraw [36m@a[0m [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m[33m [0m[33mserver running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m[33mo[0m[33mud.google.com/?authuser=1&show=terminal"}}]}[0m
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[00:14:41 INFO]: [38;5;9mNo player was found[0m
 > 
