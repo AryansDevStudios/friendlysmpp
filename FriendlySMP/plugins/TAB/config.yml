@@ -29,13 +29,11 @@ header-footer:
       - an example of server with custom header
 tablist-name-formatting:
   enabled: true
-  anti-override: true
   disable-condition: '%world%=disabledworld'
 scoreboard-teams:
   enabled: true
   enable-collision: true
   invisible-nametags: false
-  anti-override: true
   sorting-types:
   - GROUPS:owner,admin,mod,helper,builder,vip,default
   - PLACEHOLDER_A_TO_Z:%player%

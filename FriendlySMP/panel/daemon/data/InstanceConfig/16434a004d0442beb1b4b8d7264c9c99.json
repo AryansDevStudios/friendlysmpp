@@ -6,7 +6,7 @@
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1751272098943,
-    "lastDatetime": 1751648972949,
+    "lastDatetime": 1751650101509,
     "type": "minecraft/java/paper",
     "tag": [],
     "endTime": 0,
@@ -29,7 +29,7 @@
     "eventTask": {
         "autoStart": true,
         "autoRestart": true,
-        "ignore": false
+        "ignore": true
     },
     "docker": {
         "containerName": "",
