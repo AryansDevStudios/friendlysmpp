@@ -4404,4 +4404,277 @@ Starting org.bukkit.craftbukkit.Main
 > [K[22:40:31 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
 > [K[22:40:32 INFO]: [ViaVersion] Loading block connection mappings ...
 > [K[22:40:32 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> [K[22:40:33 INFO]: [ViaBackwards] Loading translations...
+> [K[22:40:33 INFO]: [ViaBackwards] Registering protocols...
+> [K[22:40:35 INFO]: [ViaRewind] Registering protocols...
+> [K[22:40:35 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+> [K[22:40:35 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.2
+> [K[22:40:36 INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[22:40:39 INFO]: [floodgate] Took 2,557ms to boot Floodgate
+> [K[22:40:39 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+> [K[22:40:39 INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+> [K[22:40:39 INFO]: [TAB] Loading server plugin TAB v5.2.0
+> [K[22:40:39 INFO]: [AxVaults] Loading server plugin AxVaults v2.7.3
 > 
+[INFO] Stop command has been executed: 
+stop
+If you are unable to stop the instance, please go to the instance settings and change the correct command for stopping the instance, such as 'exit,' 'stop,' 'end,' etc.
+[31ms[0m[31mt[0m[31mo[0m[31mp[0m
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[22:41:45 INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+> [K[22:41:45 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+> [K[31;1m[22:41:46 ERROR]: [Geyser-Spigot] [STDERR] Invalid number found for Geyser remote port in config!
+[m> [K[33;1m[22:41:46 WARN]: Nag author(s): '[GeyserMC]' of 'Geyser-Spigot v2.7.1-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m> [K[22:41:47 INFO]: [Geyser-Spigot] Loading extensions...
+> [K[22:41:47 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+> [K[22:41:47 INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[22:41:47 INFO]: [BlueMap] Loading server plugin BlueMap v5.7
+> [K[22:41:47 INFO]: [xTokenSMP] Loading server plugin xTokenSMP v1.2
+> [K[22:41:47 INFO]: Server permissions file permissions.yml is empty, ignoring it
+> [K[22:41:47 INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+> [K[22:41:48 INFO]: [38;5;14m       [38;5;6m __    [0m
+> [K[22:41:48 INFO]: [38;5;14m  |    [38;5;6m|__)   [38;5;2mLuckPerms[0m [38;5;14mv5.5.2[0m
+> [K[22:41:48 INFO]: [38;5;14m  |___ [38;5;6m|      [38;5;8mRunning on Bukkit - Paper[0m
+> [K[22:41:48 INFO]: 
+> [K[22:41:48 INFO]: [LuckPerms] Loading configuration...
+> [K[22:41:49 INFO]: [LuckPerms] Loading storage provider... [H2]
+> [K[22:41:50 INFO]: [LuckPerms] Loading internal permission managers...
+> [K[22:41:51 INFO]: [LuckPerms] Performing initial data load...
+> [K[22:41:51 INFO]: [LuckPerms] Successfully enabled. (took 4056ms)
+> [K[22:41:51 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+> [K[33;1m[22:41:51 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m> [K[33;1m[22:41:51 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m> [K[33;1m[22:41:51 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m> [K[33;1m[22:41:51 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m> [K[22:41:51 INFO]: Preparing level "world"
+> [K[22:41:54 INFO]: Preparing start region for dimension minecraft:overworld
+> [K[22:41:55 INFO]: Preparing spawn area: 0%
+> [K[22:41:55 INFO]: Preparing spawn area: 0%
+> [K[22:41:55 INFO]: Preparing spawn area: 0%
+> [K[22:41:56 INFO]: Preparing spawn area: 2%
+> [K[22:41:56 INFO]: Preparing spawn area: 2%
+> [K[22:41:58 INFO]: Preparing spawn area: 2%
+> [K[22:41:58 INFO]: Preparing spawn area: 2%
+> [K[22:41:58 INFO]: Preparing spawn area: 2%
+> [K[22:41:58 INFO]: Preparing spawn area: 2%
+> [K[22:41:58 INFO]: Preparing spawn area: 2%
+> [K[22:41:58 INFO]: Time elapsed: 4653 ms
+> [K[22:41:58 INFO]: Preparing start region for dimension minecraft:the_nether
+> [K[22:41:58 INFO]: Preparing spawn area: 0%
+> [K[22:41:59 INFO]: Preparing spawn area: 24%
+> [K[22:41:59 INFO]: Time elapsed: 905 ms
+> [K[22:41:59 INFO]: Preparing start region for dimension minecraft:the_end
+> [K[22:41:59 INFO]: Preparing spawn area: 0%
+> [K[22:41:59 INFO]: Time elapsed: 374 ms
+> [K[22:41:59 INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+> [K[22:42:00 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+> [K[22:42:00 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+> [K[22:42:00 INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[22:42:01 INFO]: [Essentials] Enabling Essentials v2.21.0
+> [K[31;1m[22:42:02 ERROR]: [Essentials] You are running an unsupported server version!
+[m> [K[22:42:03 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+> [K[22:42:03 INFO]: [Essentials] No kits found to migrate.
+> [K[22:42:03 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+> [K[22:42:03 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+> [K[22:42:03 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+> [K[22:42:04 INFO]: [Essentials] Loaded 43465 items from items.json.
+> [K[22:42:04 INFO]: [Essentials] Using locale en_US
+> [K[22:42:04 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+> [K[22:42:05 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+> [K[33;1m[22:42:05 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[m> [K[33;1m[22:42:05 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[m> [K[22:42:05 INFO]: [Essentials] Using superperms-based permissions.
+> [K[22:42:05 INFO]: [TAB] Enabling TAB v5.2.0
+> [K[22:42:05 INFO]: [TAB] [38;5;7mLoaded NMS hook in 114ms[0m
+> [K[22:42:07 INFO]: [TAB] [38;5;10mEnabled in 1058ms[0m
+> [K[22:42:07 INFO]: [AxVaults] Enabling AxVaults v2.7.3
+> [K[22:42:10 INFO]: [38;5;82m[AxVaults] Loaded plugin![0m
+> [K[22:42:10 INFO]: [PvPManager] Enabling PvPManager v3.19.3
+> [K[22:42:11 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mUsing player nametags: [38;5;14mtrue[0m
+> [K[22:42:11 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mConnected to [38;5;14mSQLITE[38;5;10m database successfully[0m
+> [K[22:42:11 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPlayers stored: [38;5;3m11[0m
+> [K[22:42:11 INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+> [K[22:42:11 INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+> [K[22:42:11 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;5mEssentials Found! Hooked successfully[0m
+> [K[33;1m[22:42:11 WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[m> [K[22:42:12 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPvPManager v3.19.3 enabled [38;5;7m(1314 ms)[0m
+> [K[22:42:12 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+> [K[22:42:13 INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[22:42:13 INFO]: [FastChunkPregenerator] >> Paper was found.
+> [K[22:42:13 INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+> [K[22:42:13 INFO]: [BlueMap] Enabling BlueMap v5.7
+> [K[22:42:13 INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+> [K[33;1m[22:42:13 WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[m> [K[22:42:14 INFO]: [PvPManager] Checking for updates...
+> [K[22:42:14 INFO]: [xTokenSMP] Enabling xTokenSMP v1.2
+> [K[22:42:14 INFO]: [xTokenSMP] Detected Minecraft version: 1.21.5
+> [K[22:42:14 INFO]: [xTokenSMP] Configuring xTokenSMP for Minecraft 1.21.5
+> [K[33;1m[22:42:14 WARN]: [xTokenSMP] This server version (1.21.5) may not be fully compatible with xTokenSMP.
+[m> [K[33;1m[22:42:14 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[22:42:14 INFO]: [xTokenSMP] Version handler initialized for Minecraft 1.21.5
+> [K[33;1m[22:42:14 WARN]: [xTokenSMP] Running on potentially unsupported version: 1.21.5
+[m> [K[33;1m[22:42:14 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[22:42:14 INFO]: [PvPManager] No update found
+> [K[22:42:15 INFO]: [xTokenSMP] xTokenSMP v1.2 has been enabled!
+> [K[22:42:15 INFO]: [xTokenSMP] Supports Minecraft versions 1.20.1 through 1.21.4
+> [K[22:42:15 INFO]: [spark] Starting background profiler...
+> [K[22:42:16 INFO]: [Geyser-Spigot] ******************************************
+> [K[22:42:16 INFO]: [Geyser-Spigot] 
+> [K[22:42:16 INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+> [K[22:42:16 INFO]: [Geyser-Spigot] 
+> [K[22:42:16 INFO]: [Geyser-Spigot] ******************************************
+> [K[22:42:26 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+> [K[22:42:26 INFO]: [Geyser-Spigot] Done (9.897s)! Run /geyser help for help!
+> [K[22:42:26 INFO]: [Geyser-Spigot] [38;5;10mThere's a new Geyser update available to support Bedrock version 1.21.92. Download it here: [4m[38;5;12mhttps://geysermc.org/download[0m
+> [K[22:42:27 INFO]: Done preparing level "world" (35.591s)
+> [K[22:42:27 INFO]: Starting GS4 status listener
+> [K[22:42:27 INFO]: Thread Query Listener started
+> [K[22:42:27 INFO]: Query running on 0.0.0.0:25565
+> [K[22:42:27 INFO]: Running delayed init tasks
+> [K[22:42:27 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+> [K[22:42:27 INFO]: [BlueMap] Loading...
+> [K[22:42:27 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[33;1m[22:42:27 WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.3.2
+[m> [K[22:42:27 INFO]: Done (161.649s)! For help, type "help"
+> [K[22:42:28 INFO]: Stopping the server
+> [K[22:42:28 INFO]: Stopping server
+> [K[22:42:28 INFO]: [xTokenSMP] Disabling xTokenSMP v1.2
+> [K[22:42:28 INFO]: [xTokenSMP] xTokenSMP has been disabled!
+> [K[22:42:28 INFO]: [BlueMap] Disabling BlueMap v5.7
+> [K[22:42:28 INFO]: [BlueMap] Stopping...
+> [K[33;1m[22:42:28 WARN]: [Essentials] [38;5;1mThere is a new EssentialsX version available for download: [38;5;9m2.21.1[38;5;1m.[0m
+[m> [K[33;1m[22:42:28 WARN]: [Essentials] [38;5;1mDownload it here:[38;5;9m https://essentialsx.net/downloads.html?branch=stable[0m
+[m> [K[22:42:29 INFO]: [BlueMap] Downloading 'https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar' to 'bluemap/minecraft-client-1.21.5.jar'...
+> [K[33;1m[22:42:29 WARN]: [BlueMap] 
+################################
+ There is a problem with your BlueMap setup!
+ BlueMap was not able to download some important resources!
+ Make sure BlueMap is able to connect to mojang-servers (https://piston-meta.mojang.com/).
+################################
+[m> [K[31;1m[22:42:29 ERROR]: [BlueMap] Failed to load!
+java.io.IOException: de.bluecolored.bluemap.common.config.ConfigurationException: java.nio.channels.ClosedByInterruptException
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:375) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:114) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.bukkit.BukkitPlugin.lambda$onEnable$0(BukkitPlugin.java:153) ~[bluemap-5.7-spigot (1).jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.21.5.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: de.bluecolored.bluemap.common.config.ConfigurationException: java.nio.channels.ClosedByInterruptException
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.BlueMapService.getOrLoadMinecraftVersion(BlueMapService.java:460) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.BlueMapService.getOrLoadResourcePack(BlueMapService.java:326) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:171) ~[bluemap-5.7-spigot (1).jar:?]
+	... 8 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:200) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.endBlocking(FileChannelImpl.java:172) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.size(FileChannelImpl.java:430) ~[?:?]
+	at jdk.zipfs@21.0.7/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1255) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.7/jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1541) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.7/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.7/jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.7/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?]
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?]
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:400) ~[?:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.core.resources.MinecraftVersion.loadVersionInfo(MinecraftVersion.java:202) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.core.resources.MinecraftVersion.load(MinecraftVersion.java:126) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.BlueMapService.getOrLoadMinecraftVersion(BlueMapService.java:448) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.BlueMapService.getOrLoadResourcePack(BlueMapService.java:326) ~[bluemap-5.7-spigot (1).jar:?]
+	at bluemap-5.7-spigot (1).jar/de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:171) ~[bluemap-5.7-spigot (1).jar:?]
+	... 8 more
+[m> [K[22:42:29 INFO]: [BlueMap] Saved and stopped!
+> [K[22:42:29 INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[22:42:29 INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+> [K[22:42:29 INFO]: [Geyser-Spigot] Shutting down Geyser.
+> [K[31;1m[22:42:29 ERROR]: [Geyser-Spigot] Exception in shutdown process
+java.lang.InterruptedException: DefaultPromise@12bf0805(incomplete)
+	at io.netty.util.concurrent.DefaultPromise.await(DefaultPromise.java:245) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.DefaultPromise.sync(DefaultPromise.java:405) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.DefaultPromise.sync(DefaultPromise.java:35) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at Geyser-Spigot.jar/org.geysermc.geyser.network.netty.GeyserServer.shutdown(GeyserServer.java:194) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.GeyserImpl.runIfNonNull(GeyserImpl.java:862) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.GeyserImpl.disable(GeyserImpl.java:676) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.GeyserImpl.shutdown(GeyserImpl.java:689) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserShutdown(GeyserSpigotPlugin.java:353) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onDisable(GeyserSpigotPlugin.java:362) ~[Geyser-Spigot.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:626) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:999) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:715) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1292) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-110-320f25c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[m> [K[22:42:29 INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+> [K[22:42:29 INFO]: [PvPManager] Disabling PvPManager v3.19.3
+> [K[22:42:29 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] Saving player data to storage...[0m
+> [K[22:42:29 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] Closed SQLITE storage[0m
+> [K[22:42:29 INFO]: [AxVaults] Disabling AxVaults v2.7.3
+> [K[22:42:30 INFO]: [TAB] Disabling TAB v5.2.0
+> [K[22:42:30 INFO]: [TAB] [38;5;10mDisabled in 0ms[0m
+> [K[22:42:30 INFO]: [Essentials] Disabling Essentials v2.21.0
+> [K[22:42:30 INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+> [K[22:42:30 INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[22:42:30 INFO]: [Geyser-Spigot] The skin uploader has been closed
+> [K[22:42:30 INFO]: [LuckPerms] Disabling LuckPerms v5.5.2
+> [K[22:42:30 INFO]: [LuckPerms] Starting shutdown process...
+> [K[22:42:30 INFO]: [LuckPerms] Closing storage...
+> [K[22:42:30 INFO]: [LuckPerms] Goodbye!
+> [K[22:42:30 INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+> [K[22:42:30 INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+> [K[22:42:30 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+> [K[22:42:30 INFO]: Saving players
+> [K[22:42:30 INFO]: Saving worlds
+> [K[22:42:30 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+> [K[22:42:30 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'world' in 0.04s
+> [K[22:42:30 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+> [K[22:42:30 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+> [K[22:42:30 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+> [K[22:42:30 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+> [K[22:42:30 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+> [K[22:42:30 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+> [K[22:42:30 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+> [K[22:42:30 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+> [K[22:42:30 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+> [K[22:42:30 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+> [K[22:42:30 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+> [K[22:42:30 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+> [K[22:42:30 INFO]: Waiting for all RegionFile I/O tasks to complete...
+> [K[22:42:30 INFO]: All RegionFile I/O tasks to complete
+> 2025-07-04T17:12:30.870710970Z Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[22:42:30 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:42:30 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
