@@ -4356,3 +4356,52 @@ Starting org.bukkit.craftbukkit.Main
 [45C
 [?1l>[?1000l[?2004l[?1h=[?2004h> [K[16:58:36 INFO]: [38;5;9mNo player was found[0m
 > 
+
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+Downloading mojang_1.21.5.jar
+Applying patches
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build from https://papermc.io/downloads/paper ***
+[22:39:47 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.6.87+ (amd64)
+[22:39:47 INFO]: [bootstrap] Loading Paper 1.21.5-110-main@320f25c (2025-06-07T21:31:57Z) for Minecraft 1.21.5
+[22:39:48 INFO]: [PluginInitializerManager] Initializing plugins...
+[22:39:51 INFO]: [PluginInitializerManager] Initialized 13 plugins
+[22:39:51 INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - AxVaults (2.7.3), BlueMap (5.7), Essentials (2.21.0), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.7.1-SNAPSHOT), LuckPerms (5.5.2), PvPManager (3.19.3), TAB (5.2.0), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), xTokenSMP (1.2)
+[33;1m[22:40:02 WARN]: resource-pack-id missing, using default of cce9c8c3-2503-373b-8184-6a9c68edb649
+[m[22:40:02 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:40:07 INFO]: Loaded 1373 recipes
+[22:40:07 INFO]: Loaded 1484 advancements
+[22:40:07 INFO]: Starting minecraft server version 1.21.5
+[22:40:07 INFO]: Loading properties
+[22:40:07 INFO]: This server is running Paper version 1.21.5-110-main@320f25c (2025-06-07T21:31:57Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[22:40:07 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:40:07 INFO]: Server Ping Player Sample Count: 12
+[22:40:07 INFO]: Using 4 threads for Netty based IO
+[22:40:10 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:40:10 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[?1h=[?2004h> [K[22:40:11 INFO]: Default game type: SURVIVAL
+> [K[22:40:11 INFO]: Generating keypair
+> [K[22:40:11 INFO]: Starting Minecraft server on *:25565
+> [K[22:40:11 INFO]: Using epoll channel type
+> [K[22:40:11 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+> [K[22:40:11 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.0-alpha1/slf4j-parent-2.0.0-alpha1.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[22:40:29 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[22:40:31 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+> [K[22:40:31 INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+> [K[22:40:32 INFO]: [ViaVersion] Loading block connection mappings ...
+> [K[22:40:32 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> 
