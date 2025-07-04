@@ -1,6 +1,6 @@
 {
     "nickname": "FriendlySMP",
-    "startCommand": "java -Xms2G -Xmx8G -jar paper-1.21.5.jar nogui",
+    "startCommand": "java -Xms2G -Xmx8G -jar paper.jar nogui",
     "stopCommand": "stop",
     "cwd": "/home/friendlysmpp/FriendlySMP",
     "ie": "utf8",
@@ -29,7 +29,7 @@
     "eventTask": {
         "autoStart": true,
         "autoRestart": true,
-        "ignore": true
+        "ignore": false
     },
     "docker": {
         "containerName": "",
@@ -55,6 +55,7 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": ""
+        "openFrpToken": "",
+        "isOpenFrp": false
     }
 }
