@@ -276,3 +276,1475 @@ s[31mst[0m[K[31mo[0mstop[K
 > [K[23:00:23 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
 > [K[23:00:23 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
 > 
+
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+Starting org.bukkit.craftbukkit.Main
+[11:34:00 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.6.87+ (amd64)
+[11:34:00 INFO]: [bootstrap] Loading Paper 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) for Minecraft 1.21.7
+[11:34:00 INFO]: [PluginInitializerManager] Initializing plugins...
+[11:34:04 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[11:34:04 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-FORK-b53), AxVaults (2.9.1), BlueMap (5.9), Essentials (2.21.1), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.8.2-SNAPSHOT), LuckPerms (5.5.9), PvPManager (3.19.3), TAB (5.2.4), ViaBackwards (5.4.1), ViaRewind (4.0.8), ViaVersion (5.4.1), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), xTokenSMP (1.2)
+[33;1m[11:34:15 WARN]: resource-pack-id missing, using default of cce9c8c3-2503-373b-8184-6a9c68edb649
+[m[11:34:15 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:34:20 INFO]: Loaded 1407 recipes
+[11:34:20 INFO]: Loaded 1520 advancements
+[11:34:20 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[11:34:21 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 882.5ms
+[11:34:21 INFO]: Starting minecraft server version 1.21.7
+[11:34:21 INFO]: Loading properties
+[11:34:21 INFO]: This server is running Paper version 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[11:34:21 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:34:22 INFO]: Server Ping Player Sample Count: 12
+[11:34:22 INFO]: Using 4 threads for Netty based IO
+[11:34:24 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:34:24 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[?1h=[?2004h> [K[11:34:25 INFO]: Default game type: SURVIVAL
+> [K[11:34:25 INFO]: Generating keypair
+> [K[11:34:25 INFO]: Starting Minecraft server on *:25565
+> [K[11:34:25 INFO]: Using epoll channel type
+> [K[11:34:25 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+> [K[11:34:25 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+> [K[11:34:29 INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
+> [K[11:34:29 INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
+> [K[11:34:30 INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+> [K[11:34:30 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[11:34:30 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[11:34:30 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+> [K[11:34:30 INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+> [K[11:34:31 INFO]: [ViaVersion] Loading block connection mappings ...
+> [K[11:34:31 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> [K[11:34:32 INFO]: [ViaBackwards] Loading translations...
+> [K[11:34:32 INFO]: [ViaBackwards] Registering protocols...
+> [K[11:34:34 INFO]: [ViaRewind] Registering protocols...
+> [K[11:34:34 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+> [K[11:34:34 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+> [K[11:34:36 INFO]: [LuckPerms] Loading configuration...
+> [K[11:34:36 INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[11:34:38 INFO]: [floodgate] Took 2,105ms to boot Floodgate
+> [K[11:34:38 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.8
+> [K[11:34:38 INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+> [K[11:34:38 INFO]: [TAB] Loading server plugin TAB v5.2.4
+> [K[11:34:38 INFO]: [AxVaults] Loading server plugin AxVaults v2.9.1
+> [K[11:34:38 INFO]: [BlueMap] Loading server plugin BlueMap v5.9
+> [K[11:34:38 INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+> [K[11:34:38 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[31;1m[11:34:39 ERROR]: [Geyser-Spigot] [STDERR] Invalid number found for Geyser remote port in config!
+[m> [K[33;1m[11:34:39 WARN]: Nag author(s): '[GeyserMC]' of 'Geyser-Spigot v2.8.2-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m> [K[11:34:40 INFO]: [Geyser-Spigot] Loading extensions...
+> [K[11:34:40 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+> [K[11:34:40 INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[11:34:40 INFO]: [xTokenSMP] Loading server plugin xTokenSMP v1.2
+> [K[11:34:40 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+> [K[11:34:40 INFO]: Server permissions file permissions.yml is empty, ignoring it
+> [K[11:34:40 INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+> [K[11:34:41 INFO]: [38;5;14m       [38;5;6m __    [0m
+> [K[11:34:41 INFO]: [38;5;14m  |    [38;5;6m|__)   [38;5;2mLuckPerms[0m [38;5;14mv5.5.9[0m
+> [K[11:34:41 INFO]: [38;5;14m  |___ [38;5;6m|      [38;5;8mRunning on Bukkit - Paper[0m
+> [K[11:34:41 INFO]: 
+> [K[11:34:41 INFO]: [LuckPerms] Loading storage provider... [H2]
+> [K[11:34:42 INFO]: [LuckPerms] Loading internal permission managers...
+> [K[11:34:43 INFO]: [LuckPerms] Performing initial data load...
+> [K[11:34:43 INFO]: [LuckPerms] Successfully enabled. (took 3413ms)
+> [K[11:34:43 INFO]: [ViaRewind] Enabling ViaRewind v4.0.8
+> [K[33;1m[11:34:43 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m> [K[33;1m[11:34:43 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m> [K[33;1m[11:34:43 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m> [K[33;1m[11:34:43 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m> [K[11:34:43 INFO]: Preparing level "world"
+> [K[11:34:45 INFO]: Preparing start region for dimension minecraft:overworld
+> [K[11:34:46 INFO]: Preparing spawn area: 0%
+> [K[11:34:47 INFO]: Preparing spawn area: 2%
+> [K[11:34:47 INFO]: Preparing spawn area: 2%
+> [K[11:34:48 INFO]: Preparing spawn area: 2%
+> [K[11:34:48 INFO]: Preparing spawn area: 2%
+> [K[11:34:48 INFO]: Preparing spawn area: 2%
+> [K[11:34:48 INFO]: Time elapsed: 3320 ms
+> [K[11:34:48 INFO]: Preparing start region for dimension minecraft:the_nether
+> [K[11:34:49 INFO]: Preparing spawn area: 0%
+> [K[11:34:49 INFO]: Preparing spawn area: 26%
+> [K[11:34:49 INFO]: Time elapsed: 838 ms
+> [K[11:34:49 INFO]: Preparing start region for dimension minecraft:the_end
+> [K[11:34:49 INFO]: Preparing spawn area: 0%
+> [K[11:34:50 INFO]: Time elapsed: 365 ms
+> [K[11:34:50 INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+> [K[11:34:50 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7 (772)
+> [K[11:34:50 INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+> [K[11:34:50 INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[11:34:51 INFO]: [Essentials] Enabling Essentials v2.21.1
+> [K[31;1m[11:34:53 ERROR]: [Essentials] You are running an unsupported server version!
+[m> [K[11:34:53 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+> [K[11:34:53 INFO]: [Essentials] No kits found to migrate.
+> [K[11:34:53 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+> [K[11:34:53 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+> [K[11:34:53 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+> [K[11:34:54 INFO]: [Essentials] Loaded 43517 items from items.json.
+> [K[11:34:54 INFO]: [Essentials] Using locale en_US
+> [K[11:34:55 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+> [K[11:34:55 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+> [K[33;1m[11:34:55 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[m> [K[33;1m[11:34:55 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[m> [K[11:34:55 INFO]: [Essentials] Using superperms-based permissions.
+> [K[11:34:55 INFO]: [TAB] Enabling TAB v5.2.4
+> [K[11:34:57 INFO]: [TAB] [38;5;10mEnabled in 912ms[0m
+> [K[11:34:57 INFO]: [AxVaults] Enabling AxVaults v2.9.1
+> [K[11:35:01 INFO]: [38;5;82m[AxVaults] Loaded plugin![0m
+> [K[11:35:01 INFO]: [BlueMap] Enabling BlueMap v5.9
+> [K[11:35:01 INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+> [K[33;1m[11:35:01 WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[m> [K[11:35:02 INFO]: [BlueMap] Loading...
+> [K[11:35:02 INFO]: [PvPManager] Enabling PvPManager v3.19.3
+> [K[11:35:02 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mUsing player nametags: [38;5;14mtrue[0m
+> [K[11:35:03 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mConnected to [38;5;14mSQLITE[38;5;10m database successfully[0m
+> [K[11:35:03 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPlayers stored: [38;5;3m11[0m
+> [K[11:35:04 INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+> [K[11:35:04 INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+> [K[11:35:04 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;5mEssentials Found! Hooked successfully[0m
+> [K[33;1m[11:35:04 WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[m> [K[11:35:04 INFO]: [BlueMap] Loading resources...
+> [K[11:35:04 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPvPManager v3.19.3 enabled [38;5;7m(2017 ms)[0m
+> [K[11:35:04 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[11:35:05 INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[11:35:05 INFO]: [FastChunkPregenerator] >> Paper was found.
+> [K[11:35:05 INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+> [K[11:35:05 INFO]: [PvPManager] Checking for updates...
+> [K[11:35:05 INFO]: [PvPManager] No update found
+> [K[11:35:06 INFO]: [xTokenSMP] Enabling xTokenSMP v1.2
+> [K[11:35:06 INFO]: [xTokenSMP] Detected Minecraft version: 1.21.7
+> [K[11:35:06 INFO]: [xTokenSMP] Configuring xTokenSMP for Minecraft 1.21.7
+> [K[33;1m[11:35:06 WARN]: [xTokenSMP] This server version (1.21.7) may not be fully compatible with xTokenSMP.
+[m> [K[33;1m[11:35:06 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[11:35:06 INFO]: [xTokenSMP] Version handler initialized for Minecraft 1.21.7
+> [K[33;1m[11:35:06 WARN]: [xTokenSMP] Running on potentially unsupported version: 1.21.7
+[m> [K[33;1m[11:35:06 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[11:35:06 INFO]: [BlueMap] Loading textures...
+> [K[11:35:06 INFO]: [xTokenSMP] xTokenSMP v1.2 has been enabled!
+> [K[11:35:06 INFO]: [xTokenSMP] Supports Minecraft versions 1.20.1 through 1.21.4
+> [K[11:35:06 INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+> [K[11:35:07 INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+> [K[11:35:08 INFO]: [AuthMe] SQLite Setup finished
+> [K[11:35:08 INFO]: [AuthMe] Hooked into LuckPerms!
+> [K[11:35:08 INFO]: [AuthMe] Hooked successfully into Essentials
+> [K[11:35:09 INFO]: [AuthMe] Essentials spawn file not found: '/home/friendlysmpp/FriendlySMP/plugins/Essentials/spawn.yml'
+> [K[11:35:09 INFO]: [AuthMe] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+> [K[11:35:09 INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+> [K[11:35:09 INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+> [K[11:35:09 INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+> [K[11:35:09 INFO]: [AuthMe] Checking for updates...
+> [K[11:35:10 INFO]: [spark] Starting background profiler...
+> [K[11:35:11 INFO]: [BlueMap] Baking resources...
+> [K[11:35:11 INFO]: [BlueMap] Resources loaded.
+> [K[11:35:11 INFO]: [Geyser-Spigot] ******************************************
+> [K[11:35:11 INFO]: [Geyser-Spigot] 
+> [K[11:35:11 INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b872 (git-master-74456ee)
+> [K[11:35:11 INFO]: [Geyser-Spigot] 
+> [K[11:35:11 INFO]: [Geyser-Spigot] ******************************************
+> [K[11:35:12 INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+> [K[11:35:12 INFO]: [BlueMap] Loading map 'world'...
+> [K[11:35:12 INFO]: [BlueMap] Loading map 'world_the_end'...
+> [K[11:35:13 INFO]: [BlueMap] Loading map 'world_nether'...
+> [K[11:35:13 INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+> [K[11:35:13 INFO]: [BlueMap] WebServer started.
+> [K[11:35:13 INFO]: [BlueMap] Loaded!
+> [K[11:35:25 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+> [K[11:35:25 INFO]: [Geyser-Spigot] Done (13.531s)! Run /geyser help for help!
+> [K[11:35:25 INFO]: Done preparing level "world" (42.234s)
+> [K[11:35:25 INFO]: Starting GS4 status listener
+> [K[11:35:25 INFO]: Thread Query Listener started
+> [K[11:35:25 INFO]: Query running on 0.0.0.0:25565
+> [K[11:35:25 INFO]: Running delayed init tasks
+> [K[11:35:25 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+> [K[11:35:25 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[11:35:26 INFO]: Done (88.194s)! For help, type "help"
+> [K[11:35:26 INFO]: [AuthMe] You are running the latest version.
+> [K[11:35:30 INFO]: UUID of player Webster_OG is 14c6c606-e067-3660-bbb7-41a975a3ff6c
+> [K[11:35:30 INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, Geyser-Spigot, Essentials, floodgate]
+> [K[11:35:38 INFO]: Webster_OG[/127.239.128.122:48921] logged in with entity id 77 at ([world_nether]-521.3611386915987, 38.0, -293.5674512396433)
+> [K[33;1m[11:35:38 WARN]: Can't keep up! Is the server overloaded? Running 3082ms or 61 ticks behind
+[m> [K[33;1m[11:36:07 WARN]: Can't keep up! Is the server overloaded? Running 13972ms or 279 ticks behind
+[m> [K[11:36:43 INFO]: [AuthMe] Webster_OG registered 127.239.128.122
+> [K[11:36:43 INFO]: [AuthMe] Webster_OG logged in 127.239.128.122
+> [K[11:37:15 INFO]: Webster_OG issued server command: /vault 4
+> [K[11:37:23 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:37:45 INFO]: Webster_OG issued server command: /vault 2
+> [K[11:41:48 INFO]: Webster_OG issued server command: /vault 2
+> [K[11:41:52 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:48:15 INFO]: Webster_OG has made the advancement [38;5;10m[A Terrible Fortress][0m
+> [K[11:50:33 INFO]: Webster_OG has made the advancement [38;5;10m[Into Fire][0m
+> [K[11:51:44 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:52:11 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:54:16 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:54:27 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:00:58 INFO]: Webster_OG issued server command: /setwarp blaze
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mh[0m[31ma[0m[31ms[0m[31m [0m[31mb[0m[31me[0m[31me[0m[31mn[0m[31m [0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mv[0m[31me[0m[31m [0m[31mf[0m[31mo[0m[31mr[0m[31m [0m[31m3[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m [0m[31ma[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mr[0m[31ma[0m[31mc[0m[31mt[0m[31m [0m[31mt[0m[31mo[0m[31m [0m[31mk[0m[31me[0m[31me[0m[31mp[0m[31m [0m[31mt[0m[31mh[0m[31me[0m
+[A[163C[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mr[0m[31mu[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31ml[0m[31mi[0m[31mn[0m[31me[0m[31md[0m[31m"[0m[31m:[0m[31mt[0m[31mr[0m[31mu[0m[31me[0m[31m,[0m[31m"[0m[31mc[0m[31ml[0m[31mi[0m[31mc[0m[31mk[0m[31mE[0m[31mv[0m[31me[0m[31mn[0m[31mt[0m[31m"[0m[31m:[0m[31m{[0m[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[12:06:20 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:06:35 INFO]: Webster_OG issued server command: /warp pearl
+> [K[12:13:54 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:14:31 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:14:39 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:14:59 INFO]: Webster_OG issued server command: /home
+> [K[12:15:26 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:15:34 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:16:14 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:16:18 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:16:30 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:16:35 INFO]: Webster_OG issued server command: /vault 1
+> [K[12:16:44 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:16:50 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:17:56 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:18:12 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:18:35 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:20:29 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:20:48 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:21:52 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:22:00 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:22:08 INFO]: Webster_OG issued server command: /vault 1
+> [K[12:22:27 INFO]: Webster_OG issued server command: /warp village1
+> [K[12:22:41 INFO]: Webster_OG issued server command: /vault /home
+> [K[12:22:50 INFO]: Webster_OG issued server command: /home
+> [K[12:23:27 INFO]: Webster_OG has completed the challenge [38;5;5m[Cover Me in Debris][0m
+> [K[12:24:03 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:24:19 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:25:02 INFO]: Webster_OG has made the advancement [38;5;10m[Crafting a New Look][0m
+> [K[12:25:30 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:25:35 INFO]: Webster_OG issued server command: /vault 4
+> [K[12:32:02 INFO]: Webster_OG issued server command: /vault 1
+> [K[12:32:50 INFO]: Webster_OG issued server command: /vault 3
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m[31me[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31me[0m[31ms[0m[31m.[0m[31m [0m[31mP[0m[31ml[0m[31me[0m[31ma[0m[31ms[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m [0m[31ms[0m[31mm[0m[31mo[0m[31mo[0m[31mt[0m[31mh[0m[31ml[0m[31my[0m[31m![0m[31m [0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31mg[0m[31mo[0m[31ml[0m[31md[0m[31m"[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[12:40:19 INFO]: Webster_OG issued server command: /recipe chest
+> [K[12:40:48 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:45:00 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:45:07 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:45:24 INFO]: Webster_OG issued server command: /vault 2
+> [K[12:45:30 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:46:16 INFO]: Webster_OG issued server command: /vault 3
+> [K[12:51:10 INFO]: Webster_OG issued server command: /warp spawn
+> [K[12:51:59 INFO]: Named entity Vex['Webster_OG's Vex'/11597, uuid='9581ee8c-0792-49ac-b9bc-4e9bc24f3b23', l='ServerLevel[world]', x=2.69, y=67.94, z=23.07, cpos=[0, 1], tl=258, v=true] died: Webster_OG's Vex was slain by Webster_OG
+> [K[12:53:50 INFO]: Webster_OG issued server command: /home
+> [K[12:53:58 INFO]: Webster_OG lost connection: Disconnected
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m [0m[31mt[0m[31mo[0m[31m [0m[31mk[0m[31me[0m[31me[0m[31mp[0m[31m [0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mM[0m[31mo[0m[31mr[0m[31me[0m[31m [0m[31mi[0m[31mn[0m[31mf[0m[31mo[0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[13:03:37 INFO]: [38;5;9mNo player was found[0m
+> 
+
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+Starting org.bukkit.craftbukkit.Main
+[19:28:13 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.6.87+ (amd64)
+[19:28:13 INFO]: [bootstrap] Loading Paper 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) for Minecraft 1.21.7
+[19:28:13 INFO]: [PluginInitializerManager] Initializing plugins...
+[19:28:17 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[19:28:17 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-FORK-b53), AxVaults (2.9.1), BlueMap (5.9), Essentials (2.21.1), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.8.2-SNAPSHOT), LuckPerms (5.5.9), PvPManager (3.19.3), TAB (5.2.4), ViaBackwards (5.4.1), ViaRewind (4.0.8), ViaVersion (5.4.1), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), xTokenSMP (1.2)
+[33;1m[19:28:29 WARN]: resource-pack-id missing, using default of cce9c8c3-2503-373b-8184-6a9c68edb649
+[m[19:28:29 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:28:34 INFO]: Loaded 1407 recipes
+[19:28:34 INFO]: Loaded 1520 advancements
+[19:28:34 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:28:35 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 934.7ms
+[19:28:35 INFO]: Starting minecraft server version 1.21.7
+[19:28:35 INFO]: Loading properties
+[19:28:35 INFO]: This server is running Paper version 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[19:28:36 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:28:36 INFO]: Server Ping Player Sample Count: 12
+[19:28:36 INFO]: Using 4 threads for Netty based IO
+[19:28:38 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[19:28:38 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[?1h=[?2004h> [K[19:28:39 INFO]: Default game type: SURVIVAL
+> [K[19:28:39 INFO]: Generating keypair
+> [K[19:28:39 INFO]: Starting Minecraft server on *:25565
+> [K[19:28:39 INFO]: Using epoll channel type
+> [K[19:28:40 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+> [K[19:28:40 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+> [K[19:28:43 INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
+> [K[19:28:43 INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
+> [K[19:28:44 INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+> [K[19:28:44 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[19:28:44 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[19:28:44 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+> [K[19:28:44 INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+> [K[19:28:46 INFO]: [ViaVersion] Loading block connection mappings ...
+> [K[19:28:46 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> [K[19:28:47 INFO]: [ViaBackwards] Loading translations...
+> [K[19:28:47 INFO]: [ViaBackwards] Registering protocols...
+> [K[19:28:49 INFO]: [ViaRewind] Registering protocols...
+> [K[19:28:49 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+> [K[19:28:49 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+> [K[19:28:51 INFO]: [LuckPerms] Loading configuration...
+> [K[19:28:51 INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[19:28:54 INFO]: [floodgate] Took 2,256ms to boot Floodgate
+> [K[19:28:54 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.8
+> [K[19:28:54 INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+> [K[19:28:54 INFO]: [TAB] Loading server plugin TAB v5.2.4
+> [K[19:28:54 INFO]: [AxVaults] Loading server plugin AxVaults v2.9.1
+> [K[19:28:54 INFO]: [BlueMap] Loading server plugin BlueMap v5.9
+> [K[19:28:54 INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+> [K[19:28:54 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[31;1m[19:28:55 ERROR]: [Geyser-Spigot] [STDERR] Invalid number found for Geyser remote port in config!
+[m> [K[33;1m[19:28:55 WARN]: Nag author(s): '[GeyserMC]' of 'Geyser-Spigot v2.8.2-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m> [K[19:28:55 INFO]: [Geyser-Spigot] Loading extensions...
+> [K[19:28:55 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+> [K[19:28:55 INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[19:28:55 INFO]: [xTokenSMP] Loading server plugin xTokenSMP v1.2
+> [K[19:28:55 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+> [K[19:28:55 INFO]: Server permissions file permissions.yml is empty, ignoring it
+> [K[19:28:55 INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+> [K[19:28:56 INFO]: [38;5;14m       [38;5;6m __    [0m
+> [K[19:28:56 INFO]: [38;5;14m  |    [38;5;6m|__)   [38;5;2mLuckPerms[0m [38;5;14mv5.5.9[0m
+> [K[19:28:56 INFO]: [38;5;14m  |___ [38;5;6m|      [38;5;8mRunning on Bukkit - Paper[0m
+> [K[19:28:56 INFO]: 
+> [K[19:28:56 INFO]: [LuckPerms] Loading storage provider... [H2]
+> [K[19:28:58 INFO]: [LuckPerms] Loading internal permission managers...
+> [K[19:28:58 INFO]: [LuckPerms] Performing initial data load...
+> [K[19:28:58 INFO]: [LuckPerms] Successfully enabled. (took 3216ms)
+> [K[19:28:58 INFO]: [ViaRewind] Enabling ViaRewind v4.0.8
+> [K[33;1m[19:28:58 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m> [K[33;1m[19:28:58 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m> [K[33;1m[19:28:58 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m> [K[33;1m[19:28:58 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m> [K[19:28:58 INFO]: Preparing level "world"
+> [K[19:29:00 INFO]: Preparing start region for dimension minecraft:overworld
+> [K[19:29:01 INFO]: Preparing spawn area: 0%
+> [K[19:29:01 INFO]: Preparing spawn area: 0%
+> [K[19:29:03 INFO]: Preparing spawn area: 0%
+> [K[19:29:03 INFO]: Preparing spawn area: 0%
+> [K[19:29:03 INFO]: Preparing spawn area: 0%
+> [K[19:29:03 INFO]: Preparing spawn area: 0%
+> [K[19:29:03 INFO]: Preparing spawn area: 0%
+> [K[19:29:04 INFO]: Time elapsed: 3258 ms
+> [K[19:29:04 INFO]: Preparing start region for dimension minecraft:the_nether
+> [K[19:29:04 INFO]: Preparing spawn area: 0%
+> [K[19:29:04 INFO]: Preparing spawn area: 32%
+> [K[19:29:05 INFO]: Time elapsed: 897 ms
+> [K[19:29:05 INFO]: Preparing start region for dimension minecraft:the_end
+> [K[19:29:05 INFO]: Preparing spawn area: 0%
+> [K[19:29:05 INFO]: Time elapsed: 330 ms
+> [K[19:29:05 INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+> [K[19:29:05 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7 (772)
+> [K[19:29:05 INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+> [K[19:29:05 INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[19:29:07 INFO]: [Essentials] Enabling Essentials v2.21.1
+> [K[31;1m[19:29:09 ERROR]: [Essentials] You are running an unsupported server version!
+[m> [K[19:29:09 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+> [K[19:29:09 INFO]: [Essentials] No kits found to migrate.
+> [K[19:29:09 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+> [K[19:29:09 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+> [K[19:29:09 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+> [K[19:29:10 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+> [K[19:29:10 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+> [K[19:29:11 INFO]: [Essentials] Loaded 43517 items from items.json.
+> [K[19:29:11 INFO]: [Essentials] Using locale en_US
+> [K[19:29:11 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+> [K[19:29:12 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+> [K[33;1m[19:29:12 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[m> [K[33;1m[19:29:12 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[m> [K[19:29:12 INFO]: [Essentials] Using superperms-based permissions.
+> [K[19:29:12 INFO]: [TAB] Enabling TAB v5.2.4
+> [K[19:29:14 INFO]: [TAB] [38;5;10mEnabled in 1662ms[0m
+> [K[19:29:14 INFO]: [AxVaults] Enabling AxVaults v2.9.1
+> [K[19:29:19 INFO]: [38;5;82m[AxVaults] Loaded plugin![0m
+> [K[19:29:19 INFO]: [BlueMap] Enabling BlueMap v5.9
+> [K[19:29:19 INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+> [K[33;1m[19:29:19 WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[m> [K[19:29:20 INFO]: [BlueMap] Loading...
+> [K[19:29:20 INFO]: [PvPManager] Enabling PvPManager v3.19.3
+> [K[19:29:20 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mUsing player nametags: [38;5;14mtrue[0m
+> [K[19:29:21 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mConnected to [38;5;14mSQLITE[38;5;10m database successfully[0m
+> [K[19:29:21 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPlayers stored: [38;5;3m11[0m
+> [K[19:29:21 INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+> [K[19:29:21 INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+> [K[19:29:21 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;5mEssentials Found! Hooked successfully[0m
+> [K[33;1m[19:29:21 WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[m> [K[19:29:22 INFO]: [BlueMap] Loading resources...
+> [K[19:29:22 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPvPManager v3.19.3 enabled [38;5;7m(2157 ms)[0m
+> [K[19:29:22 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[19:29:23 INFO]: [PvPManager] Checking for updates...
+> [K[19:29:23 INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[19:29:23 INFO]: [FastChunkPregenerator] >> Paper was found.
+> [K[19:29:23 INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+> [K[19:29:24 INFO]: [PvPManager] No update found
+> [K[19:29:24 INFO]: [xTokenSMP] Enabling xTokenSMP v1.2
+> [K[19:29:24 INFO]: [xTokenSMP] Detected Minecraft version: 1.21.7
+> [K[19:29:24 INFO]: [xTokenSMP] Configuring xTokenSMP for Minecraft 1.21.7
+> [K[33;1m[19:29:24 WARN]: [xTokenSMP] This server version (1.21.7) may not be fully compatible with xTokenSMP.
+[m> [K[33;1m[19:29:24 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[19:29:24 INFO]: [xTokenSMP] Version handler initialized for Minecraft 1.21.7
+> [K[33;1m[19:29:24 WARN]: [xTokenSMP] Running on potentially unsupported version: 1.21.7
+[m> [K[33;1m[19:29:24 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[19:29:25 INFO]: [BlueMap] Loading textures...
+> [K[19:29:25 INFO]: [xTokenSMP] xTokenSMP v1.2 has been enabled!
+> [K[19:29:25 INFO]: [xTokenSMP] Supports Minecraft versions 1.20.1 through 1.21.4
+> [K[19:29:25 INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+> [K[19:29:25 INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+> [K[19:29:27 INFO]: [AuthMe] SQLite Setup finished
+> [K[19:29:27 INFO]: [AuthMe] Hooked into LuckPerms!
+> [K[19:29:27 INFO]: [AuthMe] Hooked successfully into Essentials
+> [K[19:29:27 INFO]: [AuthMe] Essentials spawn file not found: '/home/friendlysmpp/FriendlySMP/plugins/Essentials/spawn.yml'
+> [K[19:29:29 INFO]: [AuthMe] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+> [K[19:29:29 INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+> [K[19:29:29 INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+> [K[19:29:29 INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+> [K[19:29:29 INFO]: [AuthMe] Checking for updates...
+> [K[19:29:30 INFO]: [spark] Starting background profiler...
+> [K[19:29:32 INFO]: [BlueMap] Baking resources...
+> [K[19:29:32 INFO]: [Geyser-Spigot] ******************************************
+> [K[19:29:32 INFO]: [Geyser-Spigot] 
+> [K[19:29:32 INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b872 (git-master-74456ee)
+> [K[19:29:32 INFO]: [Geyser-Spigot] 
+> [K[19:29:32 INFO]: [Geyser-Spigot] ******************************************
+> [K[19:29:32 INFO]: [BlueMap] Resources loaded.
+> [K[19:29:33 INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+> [K[19:29:33 INFO]: [BlueMap] Loading map 'world'...
+> [K[19:29:34 INFO]: [BlueMap] Loading map 'world_the_end'...
+> [K[19:29:34 INFO]: [BlueMap] Loading map 'world_nether'...
+> [K[19:29:35 INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+> [K[19:29:35 INFO]: [BlueMap] WebServer started.
+> [K[19:29:35 INFO]: [BlueMap] Loaded!
+> [K[19:29:48 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+> [K[19:29:49 INFO]: [Geyser-Spigot] Done (16.574s)! Run /geyser help for help!
+> [K[19:29:49 INFO]: Done preparing level "world" (50.822s)
+> [K[19:29:49 INFO]: Starting GS4 status listener
+> [K[19:29:49 INFO]: Thread Query Listener started
+> [K[19:29:49 INFO]: Query running on 0.0.0.0:25565
+> [K[19:29:49 INFO]: Running delayed init tasks
+> [K[19:29:49 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+> [K[19:29:49 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[19:29:50 INFO]: Done (98.949s)! For help, type "help"
+> [K[19:29:50 INFO]: [AuthMe] You are running the latest version.
+> [K[19:35:17 INFO]: UUID of player Webster_OG is 14c6c606-e067-3660-bbb7-41a975a3ff6c
+> [K[19:35:17 INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, Geyser-Spigot, Essentials, floodgate]
+> [K[19:35:24 INFO]: Webster_OG[/127.239.128.122:50271] logged in with entity id 77 at ([world]-397.78575077500136, -14.25, 275.3991322265095)
+> [K[19:35:25 INFO]: [AuthMe] Webster_OG logged in 127.239.128.122
+> [K[33;1m[19:35:26 WARN]: Can't keep up! Is the server overloaded? Running 2715ms or 54 ticks behind
+[m> [K[33;1m[19:35:47 WARN]: Can't keep up! Is the server overloaded? Running 6415ms or 128 ticks behind
+[m> [K[19:36:33 INFO]: Webster_OG issued server command: /warp spawn
+> [K[19:37:06 INFO]: Webster_OG issued server command: /home
+> [K[19:37:21 INFO]: Webster_OG issued server command: /vault 2
+> [K[19:37:31 INFO]: Webster_OG issued server command: /vault 1
+> [K[19:38:38 INFO]: Webster_OG issued server command: /warp spawn
+> [K[19:38:48 INFO]: Webster_OG issued server command: /home
+> [K[19:38:54 INFO]: Webster_OG issued server command: /warp spawn
+> [K[19:42:23 INFO]: Webster_OG issued server command: /vault 2
+> [K[19:43:05 INFO]: Webster_OG issued server command: /vault 3
+> [K[19:43:20 INFO]: Webster_OG issued server command: /vault 2
+> [K[19:43:40 INFO]: Webster_OG has made the advancement [38;5;10m[Minecraft: Trial(s) Edition][0m
+> [K[19:51:48 INFO]: Webster_OG has made the advancement [38;5;10m[Under Lock and Key][0m
+> [K[19:52:07 INFO]: Webster_OG issued server command: /vault 3
+> [K[19:55:23 INFO]: Webster_OG has reached the goal [38;5;10m[Revaulting][0m
+> [K[19:57:08 INFO]: Webster_OG issued server command: /vault 2
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mh[0m[31ma[0m[31ms[0m[31m [0m[31mb[0m[31me[0m[31me[0m[31mn[0m[31m [0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mv[0m[31me[0m[31m [0m[31mf[0m[31mo[0m[31mr[0m[31m [0m[31m3[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m [0m[31ma[0m[31mn[0m[31md[0m[31m [0m[31mw[0m[31mi[0m[31ml[0m[31ml[0m[31m [0m[31ms[0m[31mt[0m[31mo[0m[31mp[0m[31m [0m[31mw[0m[31mi[0m[31mt[0m[31mh[0m[31mi[0m[31mn[0m[31m [0m[31m1[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m.[0m[31m [0m[31mP[0m[31ml[0m[31me[0m[31ma[0m[31ms[0m[31me[0m[31m [0m[31mv[0m[31mi[0m[31ms[0m[31mi[0m[31mt[0m[31m [0m[31mt[0m[31mh[0m[31me[0m[31m [0m[31mc[0m[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m [0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m [0m[31ma[0m[31mn[0m[31md[0m[31m [0m[31mi[0m[31mn[0m[31mt[0m[31me[0m[31mr[0m[31ma[0m[31mc[0m[31mt[0m[31m [0m[31mt[0m[31mo[0m[31m [0m[31mk[0m[31me[0m[31me[0m[31mp[0m[31m [0m[31mt[0m[31mh[0m[31me[0m
+[A[163C[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mr[0m[31mu[0m[31mn[0m[31mn[0m[31mi[0m[31mn[0m[31mg[0m[31m [0m[31ms[0m[31mm[0m[31mo[0m[31mo[0m[31mt[0m[31mh[0m[31ml[0m[31my[0m[31m![0m[31m [0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31mg[0m[31mo[0m[31ml[0m[31md[0m[31m"[0m[31m,[0m[31m"[0m[31me[0m[31mx[0m[31mt[0m[31mr[0m[31ma[0m[31m"[0m[31m:[0m[31m[[0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mM[0m[31mo[0m[31mr[0m[31me[0m[31m [0m[31mi[0m[31mn[0m[31mf[0m[31mo[0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31ma[0m[31mq[0m[31mu[0m[31ma[0m[31m"[0m[31m,[0m[31m"[0m[31mu[0m[31mn[0m[31md[0m[31me[0m[31mr[0m[31ml[0m[31mi[0m[31mn[0m[31me[0m[31md[0m[31m"[0m[31m:[0m[31mt[0m[31mr[0m[31mu[0m[31me[0m[31m,[0m[31m"[0m[31mc[0m[31ml[0m[31mi[0m[31mc[0m[31mk[0m[31mE[0m[31mv[0m[31me[0m[31mn[0m[31mt[0m[31m"[0m[31m:[0m[31m{[0m[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[20:01:50 INFO]: Webster_OG issued server command: /vault 3
+> [K[20:11:49 INFO]: Webster_OG issued server command: /vault 3
+> [K[20:13:24 INFO]: Webster_OG issued server command: /warp spawn
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mh[0m[31ma[0m[31ms[0m[31m [0m[31mb[0m[31me[0m[31me[0m[31mn[0m[31m [0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mv[0m[31me[0m[31m [0m[31mf[0m[31mo[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m [0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m [0m[31ma[0m[31mn[0m[31md[0m[31m [0m[31mi[0m[31mn[0m[31mt[0m[31me[0m[31mr[0m[31ma[0m[31mc[0m[31mt[0m[31m [0m[31mt[0m[31mo[0m[31m [0m[31mk[0m[31me[0m[31me[0m[31mp[0m[31m [0m[31mt[0m[31mh[0m[31me[0m
+[A[163C[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mi[0m[31mn[0m[31mf[0m[31mo[0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31ma[0m[31mq[0m[31mu[0m[31ma[0m[31m"[0m[31m,[0m[31m"[0m[31mu[0m[31mn[0m[31md[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[20:38:06 INFO]: Webster_OG lost connection: Disconnected
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mi[0m[31mn[0m[31m [0m[31m1[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mi[0m[31mn[0m[31me[0m[31md[0m[31m"[0m[31m:[0m[31mt[0m[31mr[0m[31mu[0m[31me[0m[31m,[0m[31m"[0m[31mc[0m[31ml[0m[31mi[0m[31mc[0m[31mk[0m[31mE[0m[31mv[0m[31me[0m[31mn[0m[31mt[0m[31m"[0m[31m:[0m[31m{[0m[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[20:57:51 INFO]: [38;5;9mNo player was found[0m
+> 
+
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+Starting org.bukkit.craftbukkit.Main
+[10:29:12 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.6.87+ (amd64)
+[10:29:12 INFO]: [bootstrap] Loading Paper 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) for Minecraft 1.21.7
+[10:29:13 INFO]: [PluginInitializerManager] Initializing plugins...
+[10:29:17 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[10:29:17 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-FORK-b53), AxVaults (2.9.1), BlueMap (5.9), Essentials (2.21.1), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.8.2-SNAPSHOT), LuckPerms (5.5.9), PvPManager (3.19.3), TAB (5.2.4), ViaBackwards (5.4.1), ViaRewind (4.0.8), ViaVersion (5.4.1), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), xTokenSMP (1.2)
+[33;1m[10:29:27 WARN]: resource-pack-id missing, using default of cce9c8c3-2503-373b-8184-6a9c68edb649
+[m[10:29:27 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:29:32 INFO]: Loaded 1407 recipes
+[10:29:32 INFO]: Loaded 1520 advancements
+[10:29:32 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[10:29:33 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 933.5ms
+[10:29:33 INFO]: Starting minecraft server version 1.21.7
+[10:29:33 INFO]: Loading properties
+[10:29:33 INFO]: This server is running Paper version 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[10:29:34 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:29:34 INFO]: Server Ping Player Sample Count: 12
+[10:29:34 INFO]: Using 4 threads for Netty based IO
+[10:29:37 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[10:29:37 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[?1h=[?2004h> [K[10:29:38 INFO]: Default game type: SURVIVAL
+> [K[10:29:38 INFO]: Generating keypair
+> [K[10:29:38 INFO]: Starting Minecraft server on *:25565
+> [K[10:29:38 INFO]: Using epoll channel type
+> [K[10:29:38 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+> [K[10:29:38 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+> [K[10:29:42 INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
+> [K[10:29:42 INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
+> [K[10:29:42 INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+> [K[10:29:43 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[10:29:43 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[10:29:44 INFO]: [ViaVersion] Loading block connection mappings ...
+> [K[10:29:44 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> [K[10:29:45 INFO]: [ViaBackwards] Loading translations...
+> [K[10:29:45 INFO]: [ViaBackwards] Registering protocols...
+> [K[10:29:47 INFO]: [ViaRewind] Registering protocols...
+> [K[10:29:47 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+> [K[10:29:47 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+> [K[10:29:49 INFO]: [LuckPerms] Loading configuration...
+> [K[10:29:49 INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[10:29:51 INFO]: [floodgate] Took 2,007ms to boot Floodgate
+> [K[10:29:51 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.8
+> [K[10:29:51 INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+> [K[10:29:51 INFO]: [TAB] Loading server plugin TAB v5.2.4
+> [K[10:29:51 INFO]: [AxVaults] Loading server plugin AxVaults v2.9.1
+> [K[10:29:51 INFO]: [BlueMap] Loading server plugin BlueMap v5.9
+> [K[10:29:51 INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+> [K[10:29:51 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[31;1m[10:29:52 ERROR]: [Geyser-Spigot] [STDERR] Invalid number found for Geyser remote port in config!
+[m> [K[33;1m[10:29:52 WARN]: Nag author(s): '[GeyserMC]' of 'Geyser-Spigot v2.8.2-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m> [K[10:29:52 INFO]: [Geyser-Spigot] Loading extensions...
+> [K[10:29:52 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+> [K[10:29:52 INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[10:29:52 INFO]: [xTokenSMP] Loading server plugin xTokenSMP v1.2
+> [K[10:29:52 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+> [K[10:29:52 INFO]: Server permissions file permissions.yml is empty, ignoring it
+> [K[10:29:52 INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+> [K[10:29:53 INFO]: [38;5;14m       [38;5;6m __    [0m
+> [K[10:29:53 INFO]: [38;5;14m  |    [38;5;6m|__)   [38;5;2mLuckPerms[0m [38;5;14mv5.5.9[0m
+> [K[10:29:53 INFO]: [38;5;14m  |___ [38;5;6m|      [38;5;8mRunning on Bukkit - Paper[0m
+> [K[10:29:53 INFO]: 
+> [K[10:29:54 INFO]: [LuckPerms] Loading storage provider... [H2]
+> [K[10:29:55 INFO]: [LuckPerms] Loading internal permission managers...
+> [K[10:29:55 INFO]: [LuckPerms] Performing initial data load...
+> [K[10:29:56 INFO]: [LuckPerms] Successfully enabled. (took 3458ms)
+> [K[10:29:56 INFO]: [ViaRewind] Enabling ViaRewind v4.0.8
+> [K[33;1m[10:29:56 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m> [K[33;1m[10:29:56 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m> [K[33;1m[10:29:56 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m> [K[33;1m[10:29:56 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m> [K[10:29:56 INFO]: Preparing level "world"
+> [K[10:29:58 INFO]: Preparing start region for dimension minecraft:overworld
+> [K[10:29:59 INFO]: Preparing spawn area: 0%
+> [K[10:29:59 INFO]: Preparing spawn area: 0%
+> [K[10:30:00 INFO]: Preparing spawn area: 2%
+> [K[10:30:00 INFO]: Preparing spawn area: 2%
+> [K[10:30:01 INFO]: Preparing spawn area: 2%
+> [K[10:30:01 INFO]: Preparing spawn area: 2%
+> [K[10:30:01 INFO]: Preparing spawn area: 2%
+> [K[10:30:01 INFO]: Time elapsed: 3424 ms
+> [K[10:30:01 INFO]: Preparing start region for dimension minecraft:the_nether
+> [K[10:30:01 INFO]: Preparing spawn area: 0%
+> [K[10:30:02 INFO]: Preparing spawn area: 20%
+> [K[10:30:02 INFO]: Time elapsed: 891 ms
+> [K[10:30:02 INFO]: Preparing start region for dimension minecraft:the_end
+> [K[10:30:02 INFO]: Preparing spawn area: 0%
+> [K[10:30:03 INFO]: Time elapsed: 405 ms
+> [K[10:30:03 INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+> [K[10:30:03 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7 (772)
+> [K[10:30:03 INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+> [K[10:30:03 INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[10:30:05 INFO]: [Essentials] Enabling Essentials v2.21.1
+> [K[31;1m[10:30:07 ERROR]: [Essentials] You are running an unsupported server version!
+[m> [K[10:30:07 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+> [K[10:30:07 INFO]: [Essentials] No kits found to migrate.
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+> [K[10:30:08 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+> [K[10:30:08 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+> [K[10:30:08 INFO]: [Essentials] Loaded 43517 items from items.json.
+> [K[10:30:08 INFO]: [Essentials] Using locale en_US
+> [K[10:30:09 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+> [K[10:30:09 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+> [K[33;1m[10:30:09 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[m> [K[33;1m[10:30:09 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[m> [K[10:30:09 INFO]: [Essentials] Using superperms-based permissions.
+> [K[10:30:09 INFO]: [TAB] Enabling TAB v5.2.4
+> [K[10:30:11 INFO]: [TAB] [38;5;10mEnabled in 1368ms[0m
+> [K[10:30:11 INFO]: [AxVaults] Enabling AxVaults v2.9.1
+> [K[10:30:16 INFO]: [38;5;82m[AxVaults] Loaded plugin![0m
+> [K[10:30:16 INFO]: [BlueMap] Enabling BlueMap v5.9
+> [K[10:30:16 INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+> [K[33;1m[10:30:16 WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[m> [K[10:30:16 INFO]: [BlueMap] Loading...
+> [K[10:30:16 INFO]: [PvPManager] Enabling PvPManager v3.19.3
+> [K[10:30:17 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mUsing player nametags: [38;5;14mtrue[0m
+> [K[10:30:18 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mConnected to [38;5;14mSQLITE[38;5;10m database successfully[0m
+> [K[10:30:18 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPlayers stored: [38;5;3m11[0m
+> [K[10:30:18 INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+> [K[10:30:18 INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+> [K[10:30:18 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;5mEssentials Found! Hooked successfully[0m
+> [K[33;1m[10:30:18 WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[m> [K[10:30:18 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPvPManager v3.19.3 enabled [38;5;7m(1725 ms)[0m
+> [K[10:30:18 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[10:30:18 INFO]: [BlueMap] Loading resources...
+> [K[10:30:19 INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[10:30:19 INFO]: [FastChunkPregenerator] >> Paper was found.
+> [K[10:30:19 INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+> [K[10:30:19 INFO]: [xTokenSMP] Enabling xTokenSMP v1.2
+> [K[10:30:19 INFO]: [xTokenSMP] Detected Minecraft version: 1.21.7
+> [K[10:30:19 INFO]: [xTokenSMP] Configuring xTokenSMP for Minecraft 1.21.7
+> [K[33;1m[10:30:19 WARN]: [xTokenSMP] This server version (1.21.7) may not be fully compatible with xTokenSMP.
+[m> [K[33;1m[10:30:19 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[10:30:19 INFO]: [xTokenSMP] Version handler initialized for Minecraft 1.21.7
+> [K[33;1m[10:30:19 WARN]: [xTokenSMP] Running on potentially unsupported version: 1.21.7
+[m> [K[33;1m[10:30:19 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[10:30:20 INFO]: [PvPManager] Checking for updates...
+> [K[10:30:20 INFO]: [PvPManager] No update found
+> [K[10:30:20 INFO]: [xTokenSMP] xTokenSMP v1.2 has been enabled!
+> [K[10:30:20 INFO]: [xTokenSMP] Supports Minecraft versions 1.20.1 through 1.21.4
+> [K[10:30:20 INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+> [K[10:30:20 INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+> [K[10:30:21 INFO]: [BlueMap] Loading textures...
+> [K[10:30:22 INFO]: [AuthMe] SQLite Setup finished
+> [K[10:30:22 INFO]: [AuthMe] Hooked into LuckPerms!
+> [K[10:30:23 INFO]: [AuthMe] Hooked successfully into Essentials
+> [K[10:30:23 INFO]: [AuthMe] Essentials spawn file not found: '/home/friendlysmpp/FriendlySMP/plugins/Essentials/spawn.yml'
+> [K[10:30:23 INFO]: [AuthMe] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+> [K[10:30:23 INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+> [K[10:30:23 INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+> [K[10:30:23 INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+> [K[10:30:23 INFO]: [AuthMe] Checking for updates...
+> [K[10:30:24 INFO]: [spark] Starting background profiler...
+> [K[10:30:25 INFO]: [BlueMap] Baking resources...
+> [K[10:30:26 INFO]: [Geyser-Spigot] ******************************************
+> [K[10:30:26 INFO]: [Geyser-Spigot] 
+> [K[10:30:26 INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b872 (git-master-74456ee)
+> [K[10:30:26 INFO]: [Geyser-Spigot] 
+> [K[10:30:26 INFO]: [Geyser-Spigot] ******************************************
+> [K[10:30:26 INFO]: [BlueMap] Resources loaded.
+> [K[10:30:26 INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+> [K[10:30:26 INFO]: [BlueMap] Loading map 'world'...
+> [K[10:30:27 INFO]: [BlueMap] Loading map 'world_the_end'...
+> [K[10:30:27 INFO]: [BlueMap] Loading map 'world_nether'...
+> [K[10:30:28 INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+> [K[10:30:28 INFO]: [BlueMap] WebServer started.
+> [K[10:30:28 INFO]: [BlueMap] Loaded!
+> [K[10:30:38 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+> [K[10:30:38 INFO]: [Geyser-Spigot] Done (12.294s)! Run /geyser help for help!
+> [K[10:30:38 INFO]: Done preparing level "world" (42.400s)
+> [K[10:30:38 INFO]: Starting GS4 status listener
+> [K[10:30:38 INFO]: Query running on 0.0.0.0:25565
+> [K[10:30:38 INFO]: Thread Query Listener started
+> [K[10:30:38 INFO]: Running delayed init tasks
+> [K[10:30:38 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+> [K[10:30:38 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[10:30:39 INFO]: Done (88.166s)! For help, type "help"
+> [K[10:30:39 INFO]: [AuthMe] You are running the latest version.
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m.[0m[31m [0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mr[0m[31mu[0m[31mn[0m[31mn[0m[31mi[0m[31mn[0m[31mg[0m[31m [0m[31ms[0m[31mm[0m[31mo[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31ma[0m[31mq[0m[31mu[0m[31ma[0m[31m"[0m[31m,[0m[31m"[0m[31mu[0m[31mn[0m[31md[0m[31me[0m[31mr[0m[31ml[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[10:58:51 INFO]: [38;5;9mNo player was found[0m
+> [K[11:05:43 INFO]: UUID of player Webster_OG is 14c6c606-e067-3660-bbb7-41a975a3ff6c
+> [K[11:05:43 INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, Geyser-Spigot, Essentials, floodgate]
+> [K[11:05:49 INFO]: Webster_OG[/127.48.70.127:56031] logged in with entity id 78 at ([world]192.33785392954485, -9.0, -346.69999998807907)
+> [K[33;1m[11:05:51 WARN]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
+[m> [K[11:06:08 INFO]: [AuthMe] Webster_OG used the wrong password
+> [K[11:06:18 INFO]: [AuthMe] Webster_OG logged in 127.48.70.127
+> [K[11:11:57 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:23:18 INFO]: Webster_OG issued server command: /vault 3
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mh[0m[31ma[0m[31ms[0m[31m [0m[31mb[0m[31me[0m[31me[0m[31mn[0m[31m [0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mv[0m[31me[0m[31m [0m[31mf[0m[31mo[0m[31mr[0m[31m [0m[31m3[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m [0m[31ma[0m[31mn[0m[31md[0m[31m [0m[31mw[0m[31mi[0m[31ml[0m[31ml[0m[31m [0m[31ms[0m[31mt[0m[31mo[0m[31mp[0m[31m [0m[31mw[0m[31mi[0m[31mt[0m[31mh[0m[31mi[0m[31mn[0m[31m [0m[31m1[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m.[0m[31m [0m[31mP[0m[31ml[0m[31me[0m[31ma[0m[31ms[0m[31me[0m[31m [0m[31mv[0m[31mi[0m[31ms[0m[31mi[0m[31mt[0m[31m [0m[31mt[0m[31mh[0m[31me[0m[31m [0m[31mc[0m[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m [0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m [0m[31ma[0m[31mn[0m[31md[0m[31m [0m[31mi[0m[31mn[0m[31mt[0m[31me[0m[31mr[0m[31ma[0m[31mc[0m[31mt[0m[31m [0m[31mt[0m[31mo[0m[31m [0m[31mk[0m[31me[0m[31me[0m[31mp[0m[31m [0m[31mt[0m[31mh[0m[31me[0m
+[A[163C[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mr[0m[31mu[0m[31mn[0m[31mn[0m[31mi[0m[31mn[0m[31mg[0m[31m [0m[31ms[0m[31mm[0m[31mo[0m[31mo[0m[31mt[0m[31mh[0m[31ml[0m[31my[0m[31m![0m[31m [0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31mg[0m[31mo[0m[31ml[0m[31md[0m[31m"[0m[31m,[0m[31m"[0m[31me[0m[31mx[0m[31mt[0m[31mr[0m[31ma[0m[31m"[0m[31m:[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mc[0m[31mk[0m[31mE[0m[31mv[0m[31me[0m[31mn[0m[31mt[0m[31m"[0m[31m:[0m[31m{[0m[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[11:31:31 INFO]: UUID of player BODYTWO is 7d4f2d80-cd7e-382a-9d74-946f59ce43d4
+> [K[11:31:33 INFO]: BODYTWO[/127.239.177.182:41163] logged in with entity id 3993 at ([world]-98.5646751454297, 70.0, 187.96461933443373)
+> [K[11:32:01 INFO]: [AuthMe] BODYTWO registered 127.239.177.182
+> [K[11:32:01 INFO]: [AuthMe] BODYTWO logged in 127.239.177.182
+> [K[11:32:18 INFO]: BODYTWO was shot by Skeleton
+> [K[11:33:36 INFO]: BODYTWO was shot by Skeleton
+> [K[11:35:44 INFO]: Webster_OG has made the advancement [38;5;10m[Who Needs Rockets?][0m
+> [K[11:35:59 INFO]: BODYTWO was slain by Zombie
+> [K[11:36:15 INFO]: [Not Secure] <BODYTWO> suryansh where are u
+> [K[11:36:32 INFO]: Webster_OG issued server command: /tpa BODYTWO
+> [K[11:36:39 INFO]: BODYTWO went up in flames
+> [K[11:36:44 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:36:48 INFO]: BODYTWO issued server command: /tpaccept
+> [K[11:37:06 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:37:10 INFO]: [Not Secure] <BODYTWO> give some tools
+> [K[11:37:21 INFO]: Webster_OG issued server command: /vault 3
+> [K[11:37:38 INFO]: Webster_OG issued server command: /vault 2
+> [K[11:37:49 INFO]: [Not Secure] <BODYTWO> look this
+> [K[11:37:51 INFO]: BODYTWO has made the advancement [38;5;10m[Suit Up][0m
+> [K[11:38:09 INFO]: BODYTWO lost connection: Disconnected
+> [K[11:38:14 INFO]: UUID of player BODYTWO is 7d4f2d80-cd7e-382a-9d74-946f59ce43d4
+> [K[11:38:15 INFO]: BODYTWO[/127.239.177.182:56419] logged in with entity id 7495 at ([world]-0.6801333978766312, 69.0, 29.88721996941988)
+> [K[11:38:15 INFO]: [AuthMe] BODYTWO logged in 127.239.177.182
+> [K[11:38:27 INFO]: [Not Secure] <Webster_OG> which token
+> [K[11:38:31 INFO]: [Not Secure] <Webster_OG> you have
+> [K[11:38:38 INFO]: BODYTWO was slain by Spider
+> [K[11:39:02 INFO]: [Not Secure] <Webster_OG> which token
+> [K[11:39:04 INFO]: [Not Secure] <Webster_OG> you have
+> [K[11:39:37 INFO]: [Not Secure] <Webster_OG> ???
+> [K[11:39:48 INFO]: [Not Secure] <BODYTWO> kon mai
+> [K[11:39:53 INFO]: [Not Secure] <Webster_OG> ha
+> [K[11:40:03 INFO]: [Not Secure] <Webster_OG> kon sa token hai
+> [K[11:40:09 INFO]: [Not Secure] <BODYTWO> kuy bhai tum lelo ge]
+> [K[11:40:21 INFO]: [Not Secure] <Webster_OG> nai luga'
+> [K[11:40:32 INFO]: BODYTWO lost connection: Disconnected
+> [K[11:40:36 INFO]: UUID of player BODYTWO is 7d4f2d80-cd7e-382a-9d74-946f59ce43d4
+> [K[11:40:36 INFO]: BODYTWO[/127.239.177.182:50147] logged in with entity id 7844 at ([world]4.93513702322078, 69.0, 48.57386311774772)
+> [K[11:40:37 INFO]: [AuthMe] BODYTWO logged in 127.239.177.182
+> [K[11:41:10 INFO]: [Not Secure] <Webster_OG> kon sa hai
+> [K[11:41:26 INFO]: [Not Secure] <BODYTWO> chichken token
+> [K[11:41:40 INFO]: [Not Secure] <Webster_OG> exchange karo ge
+> [K[11:41:57 INFO]: [Not Secure] <BODYTWO> tum hare pass kon hai
+> [K[11:42:05 INFO]: [Not Secure] <Webster_OG> dragon token
+> [K[11:42:35 INFO]: [Not Secure] <BODYTWO> abe bhai mera hi hai de do saan thi se
+> [K[11:42:59 INFO]: [Not Secure] <Webster_OG> enchange kar na hai
+> [K[11:43:33 INFO]: [Not Secure] <BODYTWO> nhai phale tum mera do useke bad tumhare pesanol token se ho ga
+> [K[11:44:18 INFO]: [Not Secure] <Webster_OG> to nahi exchange karo ok
+> [K[11:44:22 INFO]: [38;5;9m[1m[38;5;1mCombat [0m[38;5;9mBODYTWO[0m was slain by [38;5;9m[1m[38;5;1mCombat [0m[38;5;9mWebster_OG[0m
+> [K[11:44:22 INFO]: BODYTWO lost connection: Disconnected
+> [K[11:45:10 INFO]: UUID of player BODYTWO is 7d4f2d80-cd7e-382a-9d74-946f59ce43d4
+> [K[11:45:11 INFO]: BODYTWO[/127.239.177.182:57957] logged in with entity id 8388 at ([world]11.65197961192675, 68.0, 56.13122971751323)
+> [K[11:45:11 INFO]: [AuthMe] BODYTWO logged in 127.239.177.182
+> [K[11:45:39 INFO]: [38;5;9m[1m[38;5;1mCombat [0m[38;5;9mBODYTWO[0m was doomed to fall
+> [K[11:45:56 INFO]: [Not Secure] <BODYTWO> chor ho bhai
+> [K[11:46:11 INFO]: [Not Secure] <Webster_OG> kya chor
+> [K[11:46:19 INFO]: [Not Secure] <BODYTWO> with armor player ko mar ke
+> [K[11:46:29 INFO]: [Not Secure] <Webster_OG> mene to exchange kar ne ko bol tha
+> [K[11:46:29 INFO]: [Not Secure] <BODYTWO> chi hai tumpe
+> [K[11:46:44 INFO]: [Not Secure] <BODYTWO> babu aukat hai na
+> [K[11:46:53 INFO]: [Not Secure] <BODYTWO> pvp aa jaoo
+> [K[11:47:07 INFO]: BODYTWO fell from a high place
+> [K[11:47:17 INFO]: [Not Secure] <Webster_OG> aaa jao
+> [K[11:47:27 INFO]: [Not Secure] <Webster_OG> pahell grind kar ke aaao
+> [K[11:47:28 INFO]: [Not Secure] <BODYTWO> aur kaya ata hai tum ko
+> [K[11:47:43 INFO]: [Not Secure] <BODYTWO> 1st give my token
+> [K[11:48:05 INFO]: [Not Secure] <Webster_OG> himat hai to mar ke lelo
+> [K[11:48:20 INFO]: [Not Secure] <BODYTWO> chor to chor hi ga
+> [K[11:48:38 INFO]: [Not Secure] <BODYTWO> bhai dam hai ex se aa jao
+> [K[11:48:49 INFO]: BODYTWO fell from a high place
+> [K[11:49:09 INFO]: [Not Secure] <BODYTWO> ek axe aa jaoo
+> [K[11:49:14 INFO]: [Not Secure] <Webster_OG> wait aa jao
+> [K[11:49:32 INFO]: Webster_OG issued server command: /vault 2
+> [K[11:49:34 INFO]: [Not Secure] <BODYTWO> de do axe without armor
+> [K[11:49:41 INFO]: [Not Secure] <Webster_OG> ok
+> [K[11:49:55 INFO]: [Not Secure] <Webster_OG> armour remove kar ke aaarah
+> [K[11:50:00 INFO]: Webster_OG issued server command: /home
+> [K[11:50:16 INFO]: Webster_OG issued server command: /vault 5
+> [K[11:50:46 INFO]: Webster_OG issued server command: /vault 5
+> [K[11:51:06 INFO]: Webster_OG issued server command: /warp spawn
+> [K[11:51:29 INFO]: [Not Secure] <Webster_OG> aaya 321 bol to start kar dena
+> [K[11:51:46 INFO]: [Not Secure] <BODYTWO> 3
+> [K[11:51:52 INFO]: [Not Secure] <Webster_OG> dont use block
+> [K[11:51:53 INFO]: [Not Secure] <BODYTWO> 2
+> [K[11:52:11 INFO]: [Not Secure] <Webster_OG> 1
+> [K[11:52:19 INFO]: [Not Secure] <BODYTWO> go\
+> [K[11:52:21 INFO]: [Not Secure] <Webster_OG> start
+> [K[11:52:38 INFO]: [38;5;9m[1m[38;5;1mCombat [0m[38;5;9mBODYTWO[0m was slain by [38;5;9m[1m[38;5;1mCombat [0m[38;5;9mWebster_OG[0m
+> [K[11:53:22 INFO]: [Not Secure] <BODYTWO> ex
+> [K[11:53:33 INFO]: Webster_OG issued server command: /home
+> [K[11:53:49 INFO]: [Not Secure] <Webster_OG> kya hua pata chal gya
+> [K[11:53:49 INFO]: BODYTWO was blown up by Creeper
+> [K[11:53:54 INFO]: [Not Secure] <Webster_OG> aukat
+> [K[11:53:59 INFO]: [Not Secure] <Webster_OG> apna
+> [K[11:54:06 INFO]: [Not Secure] <BODYTWO> babu bag gaye
+> [K[11:54:26 INFO]: [Not Secure] <Webster_OG> tum har gye samja
+> [K[11:54:37 INFO]: [Not Secure] <BODYTWO> t e sab choro senpai server me aao
+> [K[11:55:00 INFO]: [Not Secure] <Webster_OG> senpai ka koi server nahi hai
+> [K[11:55:06 INFO]: [Not Secure] <Webster_OG> nooob
+> [K[11:55:09 INFO]: [Not Secure] <BODYTWO> coolgames
+> [K[11:55:20 INFO]: [Not Secure] <Webster_OG> wo uska nahi hai
+> [K[11:55:28 INFO]: Webster_OG issued server command: /vault 2
+> [K[11:55:32 INFO]: [Not Secure] <BODYTWO> aa ge bhai
+> [K[11:55:37 INFO]: [Not Secure] <BODYTWO> akele hu na\
+> [K[11:55:48 INFO]: [Not Secure] <Webster_OG> plum smp me aao
+> [K[11:55:53 INFO]: Webster_OG issued server command: /vault 5
+> [K[11:56:17 INFO]: BODYTWO was slain by Zombie
+> [K[11:56:25 INFO]: [Not Secure] <BODYTWO> aao tab
+> [K[11:56:38 INFO]: [Not Secure] <BODYTWO> ip bej raha hu
+> [K[11:56:39 INFO]: BODYTWO was slain by Zombie
+> [K[11:56:41 INFO]: [Not Secure] <Webster_OG> ip pata hai
+> [K[11:56:52 INFO]: [Not Secure] <BODYTWO> cool games wala
+> [K[11:57:06 INFO]: Webster_OG lost connection: Disconnected
+> [K[11:57:07 INFO]: [Not Secure] <BODYTWO> aa re hoo
+> [K[11:57:41 INFO]: BODYTWO lost connection: Disconnected
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mn[0m[31m [0m[31m1[0m[31m0[0m[31m [0m[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m [0m[31ms[0m[31mm[0m[31mo[0m[31mo[0m[31mt[0m[31mh[0m[31ml[0m[31my[0m[31m![0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mq[0m[31mu[0m[31ma[0m[31m"[0m[31m,[0m[31m"[0m[31mu[0m[31mn[0m[31md[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[11:58:51 INFO]: [38;5;9mNo player was found[0m
+> 
+
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+Starting org.bukkit.craftbukkit.Main
+[13:35:03 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.6.87+ (amd64)
+[13:35:03 INFO]: [bootstrap] Loading Paper 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) for Minecraft 1.21.7
+[13:35:03 INFO]: [PluginInitializerManager] Initializing plugins...
+[13:35:07 INFO]: [PluginInitializerManager] Initialized 14 plugins
+[13:35:07 INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AuthMe (5.7.0-FORK-b53), AxVaults (2.9.1), BlueMap (5.9), Essentials (2.21.1), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.8.2-SNAPSHOT), LuckPerms (5.5.9), PvPManager (3.19.3), TAB (5.2.4), ViaBackwards (5.4.1), ViaRewind (4.0.8), ViaVersion (5.4.1), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), xTokenSMP (1.2)
+[33;1m[13:35:18 WARN]: resource-pack-id missing, using default of cce9c8c3-2503-373b-8184-6a9c68edb649
+[m[13:35:18 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:35:23 INFO]: Loaded 1407 recipes
+[13:35:23 INFO]: Loaded 1520 advancements
+[13:35:23 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:35:24 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 969.0ms
+[13:35:24 INFO]: Starting minecraft server version 1.21.7
+[13:35:24 INFO]: Loading properties
+[13:35:24 INFO]: This server is running Paper version 1.21.7-16-main@6e598f8 (2025-07-03T19:49:41Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[13:35:25 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:35:25 INFO]: Server Ping Player Sample Count: 12
+[13:35:25 INFO]: Using 4 threads for Netty based IO
+[13:35:27 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:35:27 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:35:28 INFO]: Default game type: SURVIVAL
+[13:35:28 INFO]: Generating keypair
+[?1h=[?2004h> [K[13:35:28 INFO]: Starting Minecraft server on *:25565
+> [K[13:35:29 INFO]: Using epoll channel type
+> [K[13:35:29 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+> [K[13:35:29 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+> [K[13:35:32 INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
+> [K[13:35:32 INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
+> [K[13:35:33 INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+> [K[13:35:33 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+> [K[13:35:33 INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/friendlysmpp/FriendlySMP/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+> [K[13:35:33 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+> [K[13:35:33 INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+> [K[13:35:35 INFO]: [ViaVersion] Loading block connection mappings ...
+> [K[13:35:35 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+> [K[13:35:36 INFO]: [ViaBackwards] Loading translations...
+> [K[13:35:36 INFO]: [ViaBackwards] Registering protocols...
+> [K[13:35:38 INFO]: [ViaRewind] Registering protocols...
+> [K[13:35:38 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+> [K[13:35:38 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+> [K[13:35:40 INFO]: [LuckPerms] Loading configuration...
+> [K[13:35:40 INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[13:35:42 INFO]: [floodgate] Took 2,135ms to boot Floodgate
+> [K[13:35:42 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.8
+> [K[13:35:42 INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+> [K[13:35:42 INFO]: [TAB] Loading server plugin TAB v5.2.4
+> [K[13:35:42 INFO]: [AxVaults] Loading server plugin AxVaults v2.9.1
+> [K[13:35:42 INFO]: [BlueMap] Loading server plugin BlueMap v5.9
+> [K[13:35:42 INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+> [K[13:35:42 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[31;1m[13:35:44 ERROR]: [Geyser-Spigot] [STDERR] Invalid number found for Geyser remote port in config!
+[m> [K[33;1m[13:35:44 WARN]: Nag author(s): '[GeyserMC]' of 'Geyser-Spigot v2.8.2-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[m> [K[13:35:44 INFO]: [Geyser-Spigot] Loading extensions...
+> [K[13:35:44 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+> [K[13:35:44 INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[13:35:44 INFO]: [xTokenSMP] Loading server plugin xTokenSMP v1.2
+> [K[13:35:44 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+> [K[13:35:44 INFO]: Server permissions file permissions.yml is empty, ignoring it
+> [K[13:35:44 INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+> [K[13:35:45 INFO]: [38;5;14m       [38;5;6m __    [0m
+> [K[13:35:45 INFO]: [38;5;14m  |    [38;5;6m|__)   [38;5;2mLuckPerms[0m [38;5;14mv5.5.9[0m
+> [K[13:35:45 INFO]: [38;5;14m  |___ [38;5;6m|      [38;5;8mRunning on Bukkit - Paper[0m
+> [K[13:35:45 INFO]: 
+> [K[13:35:46 INFO]: [LuckPerms] Loading storage provider... [H2]
+> [K[13:35:47 INFO]: [LuckPerms] Loading internal permission managers...
+> [K[13:35:47 INFO]: [LuckPerms] Performing initial data load...
+> [K[13:35:48 INFO]: [LuckPerms] Successfully enabled. (took 3523ms)
+> [K[13:35:48 INFO]: [ViaRewind] Enabling ViaRewind v4.0.8
+> [K[33;1m[13:35:48 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[m> [K[33;1m[13:35:48 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[m> [K[33;1m[13:35:48 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[m> [K[33;1m[13:35:48 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[m> [K[13:35:48 INFO]: Preparing level "world"
+> [K[13:35:50 INFO]: Preparing start region for dimension minecraft:overworld
+> [K[13:35:51 INFO]: Preparing spawn area: 0%
+> [K[13:35:51 INFO]: Preparing spawn area: 0%
+> [K[13:35:51 INFO]: Preparing spawn area: 2%
+> [K[13:35:52 INFO]: Preparing spawn area: 2%
+> [K[13:35:53 INFO]: Preparing spawn area: 8%
+> [K[13:35:53 INFO]: Preparing spawn area: 8%
+> [K[13:35:53 INFO]: Preparing spawn area: 8%
+> [K[13:35:53 INFO]: Time elapsed: 3424 ms
+> [K[13:35:53 INFO]: Preparing start region for dimension minecraft:the_nether
+> [K[13:35:54 INFO]: Preparing spawn area: 0%
+> [K[13:35:54 INFO]: Preparing spawn area: 22%
+> [K[13:35:54 INFO]: Time elapsed: 818 ms
+> [K[13:35:54 INFO]: Preparing start region for dimension minecraft:the_end
+> [K[13:35:54 INFO]: Preparing spawn area: 0%
+> [K[13:35:55 INFO]: Time elapsed: 352 ms
+> [K[13:35:55 INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+> [K[13:35:55 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7 (772)
+> [K[13:35:55 INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+> [K[13:35:55 INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+> [K[13:35:57 INFO]: [Essentials] Enabling Essentials v2.21.1
+> [K[31;1m[13:35:58 ERROR]: [Essentials] You are running an unsupported server version!
+[m> [K[13:35:58 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+> [K[13:35:58 INFO]: [Essentials] No kits found to migrate.
+> [K[13:35:59 INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+> [K[13:35:59 INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+> [K[13:35:59 INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+> [K[13:36:00 INFO]: [Essentials] Loaded 43517 items from items.json.
+> [K[13:36:00 INFO]: [Essentials] Using locale en_US
+> [K[13:36:00 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+> [K[13:36:01 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+> [K[33;1m[13:36:01 WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[m> [K[33;1m[13:36:01 WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[m> [K[13:36:01 INFO]: [Essentials] Using superperms-based permissions.
+> [K[13:36:01 INFO]: [TAB] Enabling TAB v5.2.4
+> [K[13:36:02 INFO]: [TAB] [38;5;10mEnabled in 1072ms[0m
+> [K[13:36:02 INFO]: [AxVaults] Enabling AxVaults v2.9.1
+> [K[13:36:08 INFO]: [38;5;82m[AxVaults] Loaded plugin![0m
+> [K[13:36:08 INFO]: [BlueMap] Enabling BlueMap v5.9
+> [K[13:36:08 INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+> [K[33;1m[13:36:08 WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[m> [K[13:36:08 INFO]: [BlueMap] Loading...
+> [K[13:36:08 INFO]: [PvPManager] Enabling PvPManager v3.19.3
+> [K[13:36:09 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mUsing player nametags: [38;5;14mtrue[0m
+> [K[13:36:10 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mConnected to [38;5;14mSQLITE[38;5;10m database successfully[0m
+> [K[13:36:10 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPlayers stored: [38;5;3m11[0m
+> [K[13:36:10 INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+> [K[13:36:10 INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+> [K[13:36:10 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;5mEssentials Found! Hooked successfully[0m
+> [K[33;1m[13:36:10 WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[m> [K[13:36:11 INFO]: [38;5;9m[[38;5;8mPvPManager[38;5;9m] [38;5;10mPvPManager v3.19.3 enabled [38;5;7m(2340 ms)[0m
+> [K[13:36:11 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+> [K[13:36:11 INFO]: [BlueMap] Loading resources...
+> [K[13:36:12 INFO]: [PvPManager] Checking for updates...
+> [K[13:36:12 INFO]: [PvPManager] No update found
+> [K[13:36:12 INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+> [K[13:36:12 INFO]: [FastChunkPregenerator] >> Paper was found.
+> [K[13:36:12 INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+> [K[13:36:13 INFO]: [xTokenSMP] Enabling xTokenSMP v1.2
+> [K[13:36:13 INFO]: [xTokenSMP] Detected Minecraft version: 1.21.7
+> [K[13:36:13 INFO]: [xTokenSMP] Configuring xTokenSMP for Minecraft 1.21.7
+> [K[33;1m[13:36:13 WARN]: [xTokenSMP] This server version (1.21.7) may not be fully compatible with xTokenSMP.
+[m> [K[33;1m[13:36:13 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[13:36:13 INFO]: [xTokenSMP] Version handler initialized for Minecraft 1.21.7
+> [K[33;1m[13:36:13 WARN]: [xTokenSMP] Running on potentially unsupported version: 1.21.7
+[m> [K[33;1m[13:36:13 WARN]: [xTokenSMP] Supported versions: 1.20.1 through 1.21.4
+[m> [K[13:36:14 INFO]: [xTokenSMP] xTokenSMP v1.2 has been enabled!
+> [K[13:36:14 INFO]: [xTokenSMP] Supports Minecraft versions 1.20.1 through 1.21.4
+> [K[13:36:14 INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+> [K[13:36:14 INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+> [K[13:36:14 INFO]: [BlueMap] Loading textures...
+> [K[13:36:15 INFO]: [AuthMe] SQLite Setup finished
+> [K[13:36:15 INFO]: [AuthMe] Hooked into LuckPerms!
+> [K[13:36:16 INFO]: [AuthMe] Hooked successfully into Essentials
+> [K[13:36:16 INFO]: [AuthMe] Essentials spawn file not found: '/home/friendlysmpp/FriendlySMP/plugins/Essentials/spawn.yml'
+> [K[13:36:17 INFO]: [AuthMe] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+> [K[13:36:17 INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+> [K[13:36:17 INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+> [K[13:36:17 INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+> [K[13:36:17 INFO]: [AuthMe] Checking for updates...
+> [K[13:36:18 INFO]: [spark] Starting background profiler...
+> [K[13:36:19 INFO]: [Geyser-Spigot] ******************************************
+> [K[13:36:19 INFO]: [Geyser-Spigot] 
+> [K[13:36:19 INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b872 (git-master-74456ee)
+> [K[13:36:19 INFO]: [Geyser-Spigot] 
+> [K[13:36:19 INFO]: [Geyser-Spigot] ******************************************
+> [K[13:36:19 INFO]: [BlueMap] Baking resources...
+> [K[13:36:19 INFO]: [BlueMap] Resources loaded.
+> [K[13:36:20 INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+> [K[13:36:20 INFO]: [BlueMap] Loading map 'world'...
+> [K[13:36:21 INFO]: [BlueMap] Loading map 'world_the_end'...
+> [K[13:36:21 INFO]: [BlueMap] Loading map 'world_nether'...
+> [K[13:36:22 INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+> [K[13:36:22 INFO]: [BlueMap] WebServer started.
+> [K[13:36:22 INFO]: [BlueMap] Loaded!
+> [K[13:36:34 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+> [K[13:36:34 INFO]: [Geyser-Spigot] Done (15.115s)! Run /geyser help for help!
+> [K[13:36:35 INFO]: Done preparing level "world" (47.014s)
+> [K[13:36:35 INFO]: Starting GS4 status listener
+> [K[13:36:35 INFO]: Thread Query Listener started
+> [K[13:36:35 INFO]: Query running on 0.0.0.0:25565
+> [K[13:36:35 INFO]: Running delayed init tasks
+> [K[13:36:35 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+> [K[13:36:35 INFO]: [Essentials] [38;5;3mFetching version information...[0m
+> [K[13:36:35 INFO]: [AuthMe] You are running the latest version.
+> [K[13:36:35 INFO]: Done (94.555s)! For help, type "help"
+> [K[13:36:48 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[13:36:48 INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, Geyser-Spigot, Essentials, floodgate]
+> [K[33;1m[13:36:50 WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[m> [K[33;1m[13:36:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:36:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:36:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[13:36:51 INFO]: vaibhav[/127.239.177.182:36477] logged in with entity id 113 at ([world]-9.5, 68.0, -7.5)
+> [K[33;1m[13:36:52 WARN]: Can't keep up! Is the server overloaded? Running 3476ms or 69 ticks behind
+[m> [K[13:37:00 INFO]: Disconnecting vaibhav for sending keepalive response (9994053) out-of-order!
+> [K[13:37:00 INFO]: vaibhav lost connection: Timed out
+> [K[13:37:06 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[13:37:07 INFO]: vaibhav[/127.239.177.182:59387] logged in with entity id 285 at ([world]-9.5, 68.0, -7.5)
+> [K[33;1m[13:37:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:37:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:37:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[33;1m[13:37:16 WARN]: Can't keep up! Is the server overloaded? Running 8256ms or 165 ticks behind
+[m> [K[13:38:01 INFO]: vaibhav issued server command: /register
+> [K[13:38:32 INFO]: [AuthMe] vaibhav registered 127.239.177.182
+> [K[13:38:32 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[13:39:04 INFO]: vaibhav issued server command: /pv 1
+> [K[13:39:10 INFO]: vaibhav issued server command: /pv 2
+> [K[13:39:16 INFO]: vaibhav lost connection: Disconnected
+> [K[13:39:21 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[13:39:21 INFO]: vaibhav[/127.239.177.182:41037] logged in with entity id 661 at ([world]17.207265306626194, 68.0, -71.88169158374058)
+> [K[13:39:21 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[13:39:22 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:39:22 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:39:22 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[13:40:03 INFO]: vaibhav was slain by Zombie
+> [K[13:42:38 INFO]: vaibhav has made the advancement [38;5;10m[Monster Hunter][0m
+> [K[13:44:00 INFO]: vaibhav fell from a high place
+> [K[13:47:26 INFO]: Disconnecting vaibhav for sending keepalive response (10621560) out-of-order!
+> [K[13:47:26 INFO]: vaibhav lost connection: Timed out
+> [K[13:48:36 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[13:48:36 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[33;1m[13:48:36 WARN]: [ViaVersion] Duplicate UUID on frontend connection! (abd980f9-edc9-382f-be27-f311169b56ea)
+[m> [K[33;1m[13:48:36 WARN]: [ViaVersion] Duplicate UUID on frontend connection! (abd980f9-edc9-382f-be27-f311169b56ea)
+[m> [K[13:48:36 INFO]: vaibhav[/127.239.177.182:55115] logged in with entity id 1952 at ([world]-16.597133002954614, 70.0, 120.80579526722002)
+> [K[13:48:36 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[13:48:36 INFO]: com.mojang.authlib.GameProfile@60ea7099[id=abd980f9-edc9-382f-be27-f311169b56ea,name=vaibhav,properties={}] lost connection: You logged in from another location
+> [K[13:48:36 INFO]: com.mojang.authlib.GameProfile@60ea7099[id=abd980f9-edc9-382f-be27-f311169b56ea,name=vaibhav,properties={}] lost connection: You logged in from another location
+> [K[33;1m[13:48:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:48:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:48:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[13:55:17 INFO]: vaibhav has made the advancement [38;5;10m[Best Friends Forever][0m
+> [K[13:56:14 INFO]: vaibhav was shot by Skeleton
+> [K[13:56:46 INFO]: vaibhav was shot by Skeleton
+> [K[13:57:21 INFO]: Disconnecting vaibhav for sending keepalive response (11216557) out-of-order!
+> [K[13:57:21 INFO]: vaibhav lost connection: Timed out
+> [K[13:57:23 INFO]: UUID of player Webster_OG is 14c6c606-e067-3660-bbb7-41a975a3ff6c
+> [K[13:57:29 INFO]: Webster_OG[/127.48.70.127:51339] logged in with entity id 3326 at ([world]-399.2803603145936, -15.0, 278.62624504022)
+> [K[13:57:29 INFO]: [AuthMe] Webster_OG logged in 127.48.70.127
+> [K[13:58:21 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[13:58:22 INFO]: vaibhav[/127.239.177.182:43497] logged in with entity id 3702 at ([world]-20.221167679134794, 64.16193658857783, 32.2404510728614)
+> [K[13:58:22 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[13:58:22 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:58:22 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:58:22 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[13:58:25 INFO]: Webster_OG issued server command: /warp spawn
+> [K[13:58:38 INFO]: [Not Secure] <Webster_OG> halo
+> [K[13:58:50 INFO]: [Not Secure] <vaibhav> hi
+> [K[13:59:00 INFO]: vaibhav was shot by Skeleton
+> [K[13:59:07 INFO]: [Not Secure] <Webster_OG> kon sa ghar
+> [K[13:59:09 INFO]: Disconnecting vaibhav for sending keepalive response (11324862) out-of-order!
+> [K[13:59:09 INFO]: vaibhav lost connection: Timed out
+> [K[13:59:14 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[13:59:14 INFO]: vaibhav[/127.239.177.182:38075] logged in with entity id 3925 at ([world]-5.5, 68.0, 3.5)
+> [K[33;1m[13:59:14 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:59:14 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[13:59:14 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[13:59:59 INFO]: Webster_OG issued server command: /tpa vaibhav
+> [K[14:00:07 INFO]: vaibhav issued server command: /tpaccept
+> [K[14:00:12 INFO]: Disconnecting vaibhav for sending keepalive response (11387764) out-of-order!
+> [K[14:00:12 INFO]: vaibhav lost connection: Timed out
+> [K[14:00:15 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:00:15 INFO]: vaibhav[/127.239.177.182:55125] logged in with entity id 4126 at ([world]-8.345976658039763, 64.0, 9.640043931062472)
+> [K[14:00:15 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[14:00:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:00:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:00:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:00:29 INFO]: [Not Secure] <Webster_OG> kon sa token hai
+> [K[14:00:37 INFO]: [Not Secure] <Webster_OG> tumhare pass
+> [K[14:00:38 INFO]: [Not Secure] <vaibhav> token kya
+> [K[14:00:57 INFO]: [Not Secure] <Webster_OG> kuch hai inventory me
+> [K[14:00:58 INFO]: Disconnecting vaibhav for sending keepalive response (11434265) out-of-order!
+> [K[14:00:58 INFO]: vaibhav lost connection: Timed out
+> [K[14:01:02 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:01:02 INFO]: vaibhav[/127.239.177.182:52181] logged in with entity id 4206 at ([world]-9.188769912135388, 64.0, 10.104309505026826)
+> [K[14:01:02 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[14:01:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:01:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:01:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:01:08 INFO]: [Not Secure] <vaibhav> nhi
+> [K[14:01:22 INFO]: [Not Secure] <Webster_OG> tum ko koi mara hai kya
+> [K[14:01:49 INFO]: [Not Secure] <vaibhav> server reset hogya ma isliye saman to gya
+> [K[14:02:09 INFO]: [Not Secure] <Webster_OG> wooo to pata hai ham ko bhi
+> [K[14:02:24 INFO]: [Not Secure] <Webster_OG> frist time join kiye ho
+> [K[14:02:34 INFO]: [Not Secure] <Webster_OG> reset ho k baad
+> [K[14:02:40 INFO]: [Not Secure] <vaibhav> hmm laptop se
+> [K[14:02:56 INFO]: [Not Secure] <Webster_OG> tum ko kuch mila nahi
+> [K[14:03:04 INFO]: [Not Secure] <Webster_OG> ye deho
+> [K[14:03:04 INFO]: [Not Secure] <vaibhav> nope
+> [K[14:03:21 INFO]: [Not Secure] <Webster_OG> ye hai chicken token
+> [K[14:03:41 INFO]: Webster_OG issued server command: /warp spawn
+> [K[14:03:46 INFO]: Webster_OG issued server command: /tpa vaibhav
+> [K[14:03:56 INFO]: vaibhav issued server command: /tpaccept
+> [K[14:04:22 INFO]: Webster_OG issued server command: /vault 2
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m[31m [0m[31mT[0m[31mh[0m[31me[0m[31m [0m[31ms[0m[31me[0m[31mr[0m[31mv[0m[31me[0m[31mr[0m[31m [0m[31mh[0m[31ma[0m[31ms[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31me[0m[31ma[0m[31ms[0m[31me[0m[31m [0m[31mv[0m[31mi[0m[31ms[0m[31mi[0m[31mt[0m[31m [0m[31mt[0m[31mh[0m[31me[0m[31m [0m[31mc[0m[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m [0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m [0m[31ma[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31m"[0m[31mg[0m[31mo[0m[31ml[0m[31md[0m[31m"[0m[31m,[0m[31m"[0m[31me[0m[31mx[0m[31mt[0m[31mr[0m[31ma[0m[31m"[0m[31m:[0m[31m[[0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mM[0m[31mo[0m[31mr[0m[31me[0m[31m [0m[31mi[0m[31mn[0m[31mf[0m[31mo[0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m[31m:[0m[31m"[0m[31ma[0m[31mq[0m[31mu[0m[31ma[0m[31m"[0m[31m,[0m[31m"[0m[31mu[0m[31mn[0m[31md[0m[31me[0m[31mr[0m[31ml[0m[31mi[0m[31mn[0m[31me[0m[31md[0m[31m"[0m[31m:[0m[31mt[0m[31mr[0m[31mu[0m[31me[0m[31m,[0m[31m"[0m[31mc[0m[31ml[0m[31mi[0m[31mc[0m[A[K
+[K[A[14:04:41 INFO]: vaibhav has made the advancement [38;5;10m[Stone Age][0m
+> tellraw [36m@a[31m {"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m[31m [0m[31mserver running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clic[0m[31mk[0m[31mE[0m[31mv[0m[31me[0m[31mn[0m[31mt[0m[31m"[0m[31m:[0m[31m{[0m[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[14:04:54 INFO]: Webster_OG issued server command: /warp spawn
+> [K[14:05:02 INFO]: Webster_OG issued server command: /tpahere vaibhav
+> [K[14:05:09 INFO]: vaibhav issued server command: /tpaccept
+> [K[14:05:17 INFO]: [Not Secure] <vaibhav> ghar kha h
+> [K[14:05:20 INFO]: [Not Secure] <Webster_OG> ye hai chicken token
+> [K[14:05:27 INFO]: Disconnecting vaibhav for sending keepalive response (11702773) out-of-order!
+> [K[14:05:27 INFO]: vaibhav lost connection: Timed out
+> [K[14:05:31 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:05:31 INFO]: vaibhav[/127.239.177.182:49897] logged in with entity id 4701 at ([world]0.9935062774509331, 70.24918707874468, 0.020149136427032616)
+> [K[14:05:31 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[14:05:31 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:05:31 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:05:31 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:05:34 INFO]: vaibhav was struck by lightning
+> [K[14:05:55 INFO]: [Not Secure] <vaibhav> leave kyu ho jaa rhe h
+> [K[14:06:09 INFO]: [Not Secure] <Webster_OG> dekhe is ka abi;ity
+> [K[14:06:16 INFO]: [Not Secure] <vaibhav> hmm
+> [K[14:06:20 INFO]: Disconnecting vaibhav for sending keepalive response (11755609) out-of-order!
+> [K[14:06:20 INFO]: vaibhav lost connection: Timed out
+> [K[14:06:25 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:06:25 INFO]: vaibhav[/127.239.177.182:49135] logged in with entity id 4811 at ([world]-8.764399409102207, 63.0, -27.687397282394603)
+> [K[14:06:25 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[14:06:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:06:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:06:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:06:25 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:06:25 INFO]: Disconnecting vaibhav (/127.239.177.182:42339): The same username is already playing on the server!
+> [K[14:06:25 INFO]: vaibhav (/127.239.177.182:42339) lost connection: The same username is already playing on the server!
+> [K[14:06:35 INFO]: [Not Secure] <Webster_OG> ek aur hai ya ha aaao
+> [K[14:06:36 INFO]: [Not Secure] <vaibhav> connection lost kyu ho ja rha h
+> [K[14:06:44 INFO]: Disconnecting vaibhav for sending keepalive response (11779507) out-of-order!
+> [K[14:06:44 INFO]: vaibhav lost connection: Timed out
+> [K[14:06:48 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:06:48 INFO]: vaibhav[/127.239.177.182:58937] logged in with entity id 4870 at ([world]-6.782501909956848, 65.01845189036825, -17.719516687466644)
+> [K[14:06:48 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[14:06:48 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:06:48 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:06:48 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:07:04 INFO]: [Not Secure] <Webster_OG> net slow hai tum hara
+> [K[14:07:18 INFO]: Disconnecting vaibhav for sending keepalive response (11813758) out-of-order!
+> [K[14:07:18 INFO]: vaibhav lost connection: Timed out
+> [K[14:07:23 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:07:23 INFO]: vaibhav[/127.239.177.182:34035] logged in with entity id 4943 at ([world]-16.64291950532127, 71.0, -14.080308665206363)
+> [K[14:07:23 INFO]: [AuthMe] vaibhav logged in 127.239.177.182
+> [K[33;1m[14:07:23 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:07:23 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:07:23 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:07:28 INFO]: [Not Secure] <vaibhav> ruko aa rhe h
+> [K[14:07:56 INFO]: [Not Secure] <Webster_OG> aur tab kya hal hai
+> [K[14:08:03 INFO]: Disconnecting vaibhav for sending keepalive response (11858408) out-of-order!
+> [K[14:08:03 INFO]: vaibhav lost connection: Timed out
+> [K[14:10:50 INFO]: Webster_OG lost connection: Disconnected
+> [K[14:12:16 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:12:16 INFO]: vaibhav[/127.254.212.106:47677] logged in with entity id 5428 at ([world]-22.28240405669046, 71.0, -13.87470786179178)
+> [K[33;1m[14:12:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:12:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:12:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:12:45 INFO]: [AuthMe] vaibhav logged in 127.254.212.106
+> [K[14:12:50 INFO]: Disconnecting vaibhav for sending keepalive response (12145727) out-of-order!
+> [K[14:12:50 INFO]: vaibhav lost connection: Timed out
+> [K[14:12:53 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:12:53 INFO]: vaibhav[/127.254.212.106:56911] logged in with entity id 5489 at ([world]-21.35196592240393, 71.0, -13.300000011920929)
+> [K[14:12:53 INFO]: [AuthMe] vaibhav logged in 127.254.212.106
+> [K[33;1m[14:12:53 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:12:53 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:12:53 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:14:14 INFO]: Disconnecting vaibhav for sending keepalive response (12230306) out-of-order!
+> [K[14:14:14 INFO]: vaibhav lost connection: Timed out
+> [K[14:14:46 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:14:46 INFO]: vaibhav[/127.254.212.106:46643] logged in with entity id 5698 at ([world]-10.844967633007991, 68.0, -8.699999988079073)
+> [K[14:14:46 INFO]: [AuthMe] vaibhav logged in 127.254.212.106
+> [K[33;1m[14:14:46 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:14:46 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:14:46 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:15:25 INFO]: vaibhav fell from a high place
+> [K[14:16:16 INFO]: vaibhav was slain by Zombie
+> [K[14:16:52 INFO]: vaibhav was slain by Zombie
+> [K[14:18:07 INFO]: vaibhav lost connection: Disconnected
+> [K[14:20:35 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:20:35 INFO]: vaibhav[/127.254.212.106:47595] logged in with entity id 6152 at ([world]-0.1012142417275682, 69.0, 54.85120719601541)
+> [K[14:20:35 INFO]: [AuthMe] vaibhav logged in 127.254.212.106
+> [K[33;1m[14:20:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:20:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:20:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:21:15 INFO]: vaibhav was shot by Skeleton
+> [K[14:24:58 INFO]: vaibhav was slain by Enderman
+> [K[14:25:02 INFO]: Disconnecting vaibhav for sending keepalive response (12877820) out-of-order!
+> [K[14:25:02 INFO]: vaibhav lost connection: Timed out
+> [K[14:26:25 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:26:25 INFO]: vaibhav[/127.254.212.106:53809] logged in with entity id 6831 at ([world]-9.5, 68.0, 1.5)
+> [K[14:26:25 INFO]: [AuthMe] vaibhav logged in 127.254.212.106
+> [K[33;1m[14:26:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:26:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:26:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:26:52 INFO]: Disconnecting vaibhav for sending keepalive response (12987806) out-of-order!
+> [K[14:26:52 INFO]: vaibhav lost connection: Timed out
+> [K[14:27:00 INFO]: UUID of player vaibhav is abd980f9-edc9-382f-be27-f311169b56ea
+> [K[14:27:01 INFO]: vaibhav[/127.254.212.106:46863] logged in with entity id 6946 at ([world]-31.72837382437016, 69.0, 77.25992924351347)
+> [K[14:27:01 INFO]: [AuthMe] vaibhav logged in 127.254.212.106
+> [K[33;1m[14:27:01 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:27:01 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FML
+[m> [K[33;1m[14:27:01 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: FORGE
+[m> [K[14:28:28 INFO]: Disconnecting vaibhav for sending keepalive response (13083661) out-of-order!
+> [K[14:28:28 INFO]: vaibhav lost connection: Timed out
+> t[31mte[0m[K[31ml[0mtell[K[31mtellr[0m[K[31ma[0m[6Dtellraw[K[31m [0m[31m@[0m [36m@a[0m[K[31m [0m[31m{[0m[31m"[0m[31mt[0m[31me[0m[31mx[0m[31mt[0m[31m"[0m[31m:[0m[31m"[0m[31mH[0m[31me[0m[31my[0m[31m [0m[31me[0m[31mv[0m[31me[0m[31mr[0m[31my[0m[31mo[0m[31mn[0m[31me[0m[31m![0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mm[0m[31mi[0m[31mn[0m[31mu[0m[31mt[0m[31me[0m[31ms[0m[31m.[0m[31m [0m[31mP[0m[31ml[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mt[0m[31mh[0m[31ml[0m[31my[0m[31m![0m[31m [0m[31m"[0m[31m,[0m[31m"[0m[31mc[0m[31mo[0m[31ml[0m[31mo[0m[31mr[0m[31m"[0m
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+[31mr[0m[31mu[0m[31me[0m[31m,[0m[31m"[0m[31mc[0m[31ml[0m[31mi[0m[31mc[0m[31mk[0m[31mE[0m[31mv[0m[31me[0m[31mn[0m[31mt[0m[31m"[0m[31m:[0m[31m{[0m[31m"[0m[31ma[0m[31mc[0m[31mt[0m[31mi[0m[31mo[0m[31mn[0m[31m"[0m[31m:[0m[31m"[0m[31mo[0m[31mp[0m[31me[0m[31mn[0m[31m_[0m[31mu[0m[31mr[0m[31ml[0m[31m"[0m[31m,[0m[31m"[0m[31mv[0m[31ma[0m[31ml[0m[31mu[0m[31me[0m[31m"[0m[31m:[0m[31m"[0m[31mh[0m[31mt[0m[31mt[0m[31mp[0m[31ms[0m[31m:[0m[31m/[0m[31m/[0m[31ms[0m[31mh[0m[31me[0m[31ml[0m[31ml[0m[31m.[0m[31mc[0m[31ml[0m
+[A[163C[31ml[0m[31mo[0m[31mu[0m[31md[0m[31m.[0m[31mg[0m[31mo[0m[31mo[0m[31mg[0m[31ml[0m[31me[0m[31m.[0m[31mc[0m[31mo[0m[31mm[0m[31m/[0m[31m?[0m[31ma[0m[31mu[0m[31mt[0m[31mh[0m[31mu[0m[31ms[0m[31me[0m[31mr[0m[31m=[0m[31m1[0m[31m&[0m[31ms[0m[31mh[0m[31mo[0m[31mw[0m[31m=[0m[31mt[0m[31me[0m[31mr[0m[31mm[0m[31mi[0m[31mn[0m[31ma[0m[31ml[0m[31m"[0m[31m}[0m[A[76C
+[42C[31m}[0m[A[9C
+[43C[31m][0m[A[7C
+[44C[2A[32D [33m{"text":"Hey everyone! The server has been active for 30 minutes and will stop within 10 minutes. Please visit the cloud shell and interact to keep the[0m
+[33m server running smoothly! ","color":"gold","extra":[{"text":"More info","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://shell.cl[0m
+[33moud.google.com/?authuser=1&show=terminal"}}]}[0m[K[2A[32D
+
+[45C
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[14:34:41 INFO]: [38;5;9mNo player was found[0m
+> 

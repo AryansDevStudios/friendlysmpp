@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751547396778
-  login: 1751547232059
+  logout: 1751783261201
+  login: 1751782511276
 money: '0'
 last-account-name: BODYTWO
 logoutlocation:
   world: b447c98d-c70f-4098-8f0f-36189c227fc0
   world-name: world
-  x: -98.5646751454297
-  y: 70.0
-  z: 187.96461933443373
-  yaw: -166.66693115234375
-  pitch: 42.66984176635742
+  x: -6.082859278399808
+  y: 71.0
+  z: -27.456369655759158
+  yaw: -88.055419921875
+  pitch: 25.17102813720703
+lastlocation:
+  world: b447c98d-c70f-4098-8f0f-36189c227fc0
+  world-name: world
+  x: -1.300000011920929
+  y: 67.0
+  z: -1.445884411614532
+  yaw: -115.52865600585938
+  pitch: 18.93208122253418
