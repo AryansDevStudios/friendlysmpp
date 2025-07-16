@@ -6,7 +6,7 @@
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1751272098943,
-    "lastDatetime": 1751650101509,
+    "lastDatetime": 1752686020830,
     "type": "minecraft/java/paper",
     "tag": [],
     "endTime": 0,
@@ -55,7 +55,6 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": "",
-        "isOpenFrp": false
+        "openFrpToken": ""
     }
 }
