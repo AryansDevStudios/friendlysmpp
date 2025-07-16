@@ -11,7 +11,7 @@ echo "---------------------------------------------------"
 if ! command -v screen &> /dev/null; then
     echo "📦 Installing required tools (screen)..."
     sudo apt update 
-    sudo apt-get install screen -y
+    sudo apt-get install screen ethtool -y
     if command -v screen &> /dev/null; then
         echo "✅ 'screen' installed successfully."
     else
@@ -45,7 +45,12 @@ echo "✅ Tailscale state restored."
 
 # Step 4: Start Tailscale daemon
 echo "🚀 Starting Tailscale..."
+sudo sysctl -w net.ipv6.conf.all.forwarding=1
+sudo ethtool -K eth0 gro on
+sudo ethtool -K eth0 rx-gro-list on
+sudo ethtool -K eth0 rx-udp-gro-forwarding on
 nohup sudo ~/tailscale-bin/tailscaled > ~/tailscaled.log 2>&1 &
+sudo /home/friendlysmpp/tailscale-bin/tailscale up --advertise-exit-node
 echo "✅ Tailscale is running in the background."
 
 # Step 5: Start Playit tunnel
