@@ -32,3 +32,6 @@ sync.log
 README-cloudshell.txt
 
 git_pat.txt
+.dotnet/
+.gemini/
+.config/
